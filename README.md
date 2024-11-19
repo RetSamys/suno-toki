@@ -4,7 +4,7 @@ This is a font, crudely drawn by hand, for a [video tutorial on how to make a si
   * UCSUR-compatible
   * monospaced
   * supports cartouches
-  * supports ligatures (conversion of words typed in ASCII/Latin into sitelen pona characters)
+  * supports ligatures (conversion of words typed in ASCII/Latin into sitelen pona characters), simply type `jan [sona ijo mun insa mute ale nasin] li toki sona` to get "jan Simiman li toki sona"
   * supports all pu words, including the glyphs created for pu words after the release of the book (kin, oko, namako, and tonsi)
   * kijetesantakalu
 * Features that might be more interesting:

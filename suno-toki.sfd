@@ -4,7 +4,7 @@ FullName: suno toki
 FamilyName: suno-toki
 Weight: Regular
 Copyright: Copyright (c) 2024, Ret Samys
-Version: 001.000
+Version: 002.100
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1723117504
-ModificationTime: 1727639081
+ModificationTime: 1732282771
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -61,11 +61,29 @@ Lookup: 2 0 0 "'ccmp' mid name assignment" { "'ccmp' mid name assignment-1"  } [
 Lookup: 6 0 0 "'calt' name cleanup" { "'calt' name cleanup-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' Zugriff auf alle Alternativen in Lateinisch Nachschlagetabelle 9" { "'aalt' Zugriff auf alle Alternativen in Lateinisch Nachschlagetabelle 9-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 3 0 0 "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6" { "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1"  } ['rand' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 0 1 "'liga' ASCII conversion" { "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' Kontextuelle Alternativen in Lateinisch Nachschlagetabelle 1" { "'calt' Kontextuelle Alternativen in Lateinisch Nachschlagetabelle 1 Subtabelle"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' ASCII conversion" { "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle"  "'liga' ASCII conversion-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' Kontextuelle Alternativen in Lateinisch Nachschlagetabelle 1" { "'calt' Kontextuelle Alternativen in Lateinisch Nachschlagetabelle 1-1"  "'calt' Kontextuelle Alternativen in Lateinisch Nachschlagetabelle 1 Subtabelle"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2" { "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle"  } ['cc01' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 2 0 0 "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9" { "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1"  } ['cc02' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "'calt' Kontextuelle Alternativen in Lateinisch Nachschlagetabelle 1-1" 3 3 3 1
+  Class: 1220 ideographicspace Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu tok.dot tok.colon tok.ni.br tok.ni.r tok.ni.tr tok.ni.t tok.ni.tl tok.ni.l tok.ni.bl
+  Class: 53 tok.piext tok.ext tok.longpi tok.longstart tok.a.long
+  BClass: 1220 ideographicspace Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu tok.dot tok.colon tok.ni.br tok.ni.r tok.ni.tr tok.ni.t tok.ni.tl tok.ni.l tok.ni.bl
+  BClass: 53 tok.piext tok.ext tok.longpi tok.longstart tok.a.long
+  FClass: 1220 ideographicspace Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu tok.dot tok.colon tok.ni.br tok.ni.r tok.ni.tr tok.ni.t tok.ni.tl tok.ni.l tok.ni.bl
+  FClass: 53 tok.piext tok.ext tok.longpi tok.longstart tok.a.long
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9"
+  ClassNames: "Alle__Andere" "1" "2"
+  BClassNames: "Alle__Andere" "1" "2"
+  FClassNames: "Alle__Andere" "1" "2"
+EndFPST
 ChainSub2: class "'calt' name cleanup-1" 5 5 5 1
   Class: 11 Tok.cartend
   Class: 12 Tok.cartopen
@@ -141,15 +159,15 @@ StdVW 4 [91]
 StemSnapH 34 [58 70 75 80 87 92 99 110 117 123]
 StemSnapV 33 [61 68 71 75 80 84 91 96 105 110]
 EndPrivate
-BeginChars: 402 402
+BeginChars: 417 417
 
 StartChar: .notdef
 Encoding: 385 -1 0
 Width: 500
 GlyphClass: 1
-Flags: MW
-HStem: 0 50<100 400 100 450> 483 50<100 400 100 100>
-VStem: 50 50<50 50 50 483> 400 50<50 483 483 483>
+Flags: W
+HStem: 0 50<100 400> 483 50<100 400>
+VStem: 50 50<50 483> 400 50<50 483>
 LayerCount: 2
 Fore
 SplineSet
@@ -2788,6 +2806,7 @@ Flags: W
 LayerCount: 2
 Fore
 Validated: 1
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" ideographicspace tok.ext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" space space
 EndChar
 
@@ -2795,8 +2814,8 @@ StartChar: Tok.a
 Encoding: 257 989440 258
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 243.32 42.8398<-15.5269 -4.44238 -15.5269 -2.35254> 279.396 76.6348
+Flags: W
+VStem: 243.32 42.8398<-32.0522 18.6202> 279.396 76.6348<160.807 252.617 525.199 680.535>
 LayerCount: 2
 Fore
 SplineSet
@@ -2834,7 +2853,8 @@ SplineSet
  456.6796875 -80.0341796875 452.626953125 -85.3759765625 444.279296875 -89.1669921875 c 0
  436.3046875 -92.7861328125 428.4296875 -93.0537109375 418.880859375 -90.0244140625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.a tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.a Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" a
 EndChar
@@ -2843,9 +2863,9 @@ StartChar: Tok.akesi
 Encoding: 258 989441 259
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -67.4248 54.8926 37.4756 81.1836 59.2959 67.6182<490.813 490.813 490.813 495.915> 68.5625 57.5996 198.093 100.352<389.56 389.56> 207.458 90.8633 392.556 68.3213 393.037 75.0928 546.433 89.0645 563.225 75.6602
-VStem: 193.163 69.874 402.005 119.834 417.607 73.2061<126.914 166.669>
+Flags: W
+HStem: -67.4248 54.8926<331.01 400.18> 37.4756 81.1836<312.452 409.572> 59.2959 67.6182<490.897 554.186> 68.5625 57.5996<490.897 554.52> 198.093 100.352<270.789 415.39> 207.458 90.8633<492.358 606.476> 392.556 68.3213<157.332 202.14> 393.037 75.0928<314.93 376.1> 546.433 89.0645<413.58 509.042> 563.225 75.6602<181.115 242.851>
+VStem: 193.163 69.874<300.431 387.814> 402.005 119.834<559.819 630.041> 417.607 73.2061<126.914 199.282 298.694 390.87>
 LayerCount: 2
 Fore
 SplineSet
@@ -2971,7 +2991,8 @@ SplineSet
  410.306640625 -66.5595703125 406.318359375 -67.1201171875 387.331054688 -67.4248046875 c 0
  375.249023438 -67.623046875 359.560546875 -66.8603515625 352.46484375 -65.7392578125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.akesi tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.akesi Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" a k e s i
 EndChar
@@ -2980,8 +3001,8 @@ StartChar: Tok.ala
 Encoding: 259 989442 260
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 116.434 63.0957 277.078 142.591
+Flags: W
+VStem: 116.434 63.0957<623.802 666.91> 277.078 142.591<289.433 359.988>
 LayerCount: 2
 Fore
 SplineSet
@@ -3037,7 +3058,8 @@ SplineSet
  575.063476562 -46.431640625 572.9609375 -57.30078125 565.694335938 -66.119140625 c 0
  557.994140625 -75.4609375 548.540039062 -78.6767578125 536.634765625 -76.0107421875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.ala tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.ala Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" a l a
 EndChar
@@ -3046,9 +3068,9 @@ StartChar: Tok.alasa
 Encoding: 260 989443 261
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 229.471 124.247
-VStem: 179.243 86.6865 417.742 90.1758
+Flags: W
+HStem: 229.471 124.247<255.362 388.572>
+VStem: 179.243 86.6865<352.761 503.771> 417.742 90.1758<333.842 455.998>
 LayerCount: 2
 Fore
 SplineSet
@@ -3125,7 +3147,8 @@ SplineSet
  304.07421875 -5.439453125 268.55078125 -16.4931640625 225.709960938 -21.7333984375 c 0
  200.694335938 -24.7919921875 181.939453125 -24.78515625 166.473632812 -21.6982421875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.alasa tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.alasa Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" a l a s a
 EndChar
@@ -3134,9 +3157,9 @@ StartChar: Tok.ale
 Encoding: 261 989444 262
 Width: 700
 GlyphClass: 3
-Flags: MW
+Flags: W
 HStem: 135.539 326.59
-VStem: 19.2627 85.5273
+VStem: 19.2627 85.5273<235.477 351.549>
 LayerCount: 2
 Fore
 SplineSet
@@ -3200,7 +3223,8 @@ SplineSet
  206.13671875 137.193359375 201.450195312 136.35546875 181.999023438 135.5390625 c 0
  161.008789062 134.653320312 158.852539062 134.892578125 126.559570312 141.69140625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.ale tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.ale Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" a l i
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" a l e
@@ -3210,9 +3234,9 @@ StartChar: Tok.anpa
 Encoding: 262 989445 263
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 88.8369 110.991 266.892 95.6562 278.151 80.3457
-VStem: 85.2676 69.833 276.944 125.487 532.383 87.9951
+Flags: W
+HStem: 88.8369 110.991<293.726 394.951> 266.892 95.6562<159.144 479.629> 278.151 80.3457<161.95 487.051>
+VStem: 85.2676 69.833<383.82 506.666> 276.944 125.487<106.347 188.733> 532.383 87.9951<402.606 495.965>
 LayerCount: 2
 Fore
 SplineSet
@@ -3258,7 +3282,8 @@ SplineSet
  384.405273438 97.2177734375 378.116210938 92.845703125 372.661132812 90.8603515625 c 0
  361.15234375 86.666015625 342.893554688 85.7607421875 331.962890625 88.8369140625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.anpa tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.anpa Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" a n p a
 EndChar
@@ -3315,7 +3340,8 @@ SplineSet
  223.009765625 -18.5029296875 188.970703125 -42.8974609375 169.012695312 -45.43359375 c 0
  165.420898438 -45.8876953125 157.979492188 -45.1435546875 152.483398438 -43.7724609375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.ante tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.ante Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" a n t e
 EndChar
@@ -3324,8 +3350,8 @@ StartChar: Tok.anu
 Encoding: 264 989447 265
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 287.607 122.202
+Flags: W
+VStem: 287.607 122.202<-47.3496 317.418>
 LayerCount: 2
 Fore
 SplineSet
@@ -3364,7 +3390,8 @@ SplineSet
  401.975585938 -34.3681640625 389.110351562 -51.4248046875 368.50390625 -61.06640625 c 0
  356.475585938 -66.6962890625 338.856445312 -68.8154296875 329.060546875 -65.810546875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.anu tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.anu Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" a n u
 EndChar
@@ -3373,9 +3400,9 @@ StartChar: Tok.awen
 Encoding: 265 989448 266
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -37.958 57.375
-VStem: 419.044 95.0264
+Flags: W
+HStem: -37.958 57.375<55.0775 180.798>
+VStem: 419.044 95.0264<238.332 453.56>
 LayerCount: 2
 Fore
 SplineSet
@@ -3433,7 +3460,8 @@ SplineSet
  255.887695312 -17.0810546875 238.708984375 -34.7548828125 231.059570312 -37.2158203125 c 0
  222.080078125 -40.1005859375 100.885742188 -40.6884765625 77.7294921875 -37.9580078125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.awen tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.awen Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" a w e n
 EndChar
@@ -3442,9 +3470,9 @@ StartChar: Tok.e
 Encoding: 266 989449 267
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 554.775 36.001
-VStem: 293.219 118.46<319.359 326.544>
+Flags: W
+HStem: 554.775 36.001<198.865 260.266>
+VStem: 293.219 118.46<270.041 353.556>
 LayerCount: 2
 Fore
 SplineSet
@@ -3497,7 +3525,8 @@ SplineSet
  432.500976562 36.6416015625 425.791992188 32.314453125 392.268554688 18.0478515625 c 0
  356.731445312 2.9267578125 336.920898438 -0.201171875 314.239257812 5.7265625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.e tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.e Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" e
 EndChar
@@ -3506,9 +3535,9 @@ StartChar: Tok.en
 Encoding: 267 989450 268
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 269.31 84.4277 309.458 99.3975
-VStem: 264.443 121.994 289.736 96.041
+Flags: W
+HStem: 269.31 84.4277<410.844 584.691> 309.458 99.3975<113.587 267.055>
+VStem: 264.443 121.994<40.7201 181.44> 289.736 96.041<399.08 558.223>
 LayerCount: 2
 Fore
 SplineSet
@@ -3545,7 +3574,8 @@ SplineSet
  384.68359375 85.84375 380.486328125 57.1708984375 374.327148438 40.48046875 c 0
  366.069335938 18.1064453125 343.88671875 8.0166015625 319.616210938 15.6044921875 c 0xa0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.en tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.en Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" e n
 EndChar
@@ -3554,9 +3584,9 @@ StartChar: Tok.esun
 Encoding: 268 989451 269
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -92.1807 87.791 -66.3887 64.4492
-VStem: 109.719 93.2422<4.16211 44.9346> 235.719 88.6104
+Flags: W
+HStem: -92.1807 87.791<467.974 575.925> -66.3887 64.4492<204.687 323.076>
+VStem: 109.719 93.2422<3.15194 73.8753> 235.719 88.6104<303.87 409.36>
 LayerCount: 2
 Fore
 SplineSet
@@ -3635,7 +3665,8 @@ SplineSet
  580.088867188 -68.7158203125 554.700195312 -83.6728515625 542.361328125 -88.5537109375 c 0
  533.8984375 -91.900390625 509.51171875 -93.9208984375 498.638671875 -92.1806640625 c 0xb0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.esun tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.esun Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" e s u n
 EndChar
@@ -3644,9 +3675,9 @@ StartChar: Tok.ijo
 Encoding: 269 989452 270
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 6.60938 97.5938
-VStem: 500.086 105.868
+Flags: W
+HStem: 6.60938 97.5938<246.111 400.585>
+VStem: 500.086 105.868<233.654 417.046>
 LayerCount: 2
 Fore
 SplineSet
@@ -3690,7 +3721,8 @@ SplineSet
  474.150390625 49.6279296875 464.0703125 42.81640625 430.543945312 26.884765625 c 0
  388.581054688 6.94140625 368.48046875 3.587890625 309.028320312 6.609375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.ijo tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.ijo Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" i j o
 EndChar
@@ -3699,7 +3731,7 @@ StartChar: Tok.ike
 Encoding: 270 989453 271
 Width: 700
 GlyphClass: 3
-Flags: MW
+Flags: W
 HStem: 182.202 234.466
 LayerCount: 2
 Fore
@@ -3728,7 +3760,8 @@ SplineSet
  216.91015625 202.586914062 201.587890625 189.616210938 181.401367188 184.109375 c 0
  166.939453125 180.165039062 157.758789062 179.618164062 149.48046875 182.202148438 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.ike tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.ike Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" i k e
 EndChar
@@ -3737,9 +3770,9 @@ StartChar: Tok.ilo
 Encoding: 271 989454 272
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 290.406 47.2393 515.24 54.1191
-VStem: 104.891 56.9531 288.142 114.115 290.206 105.137 528.277 66.3359
+Flags: W
+HStem: 290.406 47.2393<398.12 511.825> 515.24 54.1191<400.419 515.459>
+VStem: 104.891 56.9531<353.778 461.202> 288.142 114.115<48.3136 274.714> 290.206 105.137<48.3136 274.714 355.846 484.424> 528.277 66.3359<355.063 501.4>
 LayerCount: 2
 Fore
 SplineSet
@@ -3803,7 +3836,8 @@ SplineSet
  387.5390625 42.41796875 370.052734375 34.0888671875 355.564453125 31.01953125 c 0
  343.002929688 28.357421875 337.6640625 28.2373046875 326.8125 30.3701171875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.ilo tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.ilo Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" i l o
 EndChar
@@ -3812,9 +3846,9 @@ StartChar: Tok.insa
 Encoding: 272 989455 273
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 170.62 98.7822 309.267 89.7041
-VStem: 97.3789 83.5176 512.269 101.278
+Flags: W
+HStem: 170.62 98.7822<230.967 477.984> 309.267 89.7041<296.94 391.569>
+VStem: 97.3789 83.5176<316.628 436.156> 512.269 101.278<308.066 412.079>
 LayerCount: 2
 Fore
 SplineSet
@@ -3854,7 +3888,8 @@ SplineSet
  366.311523438 169.772460938 327.376953125 168.275390625 316.2890625 167.294921875 c 0
  250.4765625 161.48046875 152.01171875 158.766601562 134.122070312 162.27734375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.insa tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.insa Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" i n s a
 EndChar
@@ -3863,9 +3898,9 @@ StartChar: Tok.jaki
 Encoding: 273 989456 274
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 64.8789 81.4775 436.155 72.2422<288.657 309.763> 479.612 69.4629
-VStem: 151.706 77.5742 183.517 90.8154
+Flags: W
+HStem: 64.8789 81.4775<478.293 554.682> 436.155 72.2422<260.82 318.889> 479.612 69.4629<143.72 236.477>
+VStem: 151.706 77.5742<113.72 146.142> 183.517 90.8154<225.485 267.496>
 LayerCount: 2
 Fore
 SplineSet
@@ -3963,7 +3998,8 @@ SplineSet
  256.815429688 52.2568359375 240.5625 51.0869140625 236.150390625 50.5068359375 c 0
  231.741210938 49.9248046875 227.755859375 49.8232421875 227.293945312 50.27734375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.jaki tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.jaki Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" j a k i
 EndChar
@@ -3972,8 +4008,8 @@ StartChar: Tok.jan
 Encoding: 274 989457 275
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 111.198 68 474.247 96.5371
+Flags: W
+HStem: 111.198 68<231.309 416.784> 474.247 96.5371<300.805 481.732>
 LayerCount: 2
 Fore
 SplineSet
@@ -4028,7 +4064,8 @@ SplineSet
  180.517578125 39.7353515625 166.931640625 31.3369140625 149.356445312 28.076171875 c 0
  139.344726562 26.2197265625 137.543945312 26.216796875 129.005859375 28.0419921875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.jan tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.jan Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" j a n
 EndChar
@@ -4037,9 +4074,9 @@ StartChar: Tok.jelo
 Encoding: 275 989458 276
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -26.2383 58.1846 416.478 57.9072
-VStem: 311.877 56.499
+Flags: W
+HStem: -26.2383 58.1846<182.134 457.338> 416.478 57.9072<441.773 511.245>
+VStem: 311.877 56.499<545.253 626.575>
 LayerCount: 2
 Fore
 SplineSet
@@ -4122,7 +4159,8 @@ SplineSet
  348.889648438 -21.986328125 318.248046875 -23.12109375 290.01171875 -25.3154296875 c 0
  243.75 -28.9072265625 245.079101562 -28.8798828125 220.291992188 -26.7275390625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.jelo tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.jelo Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" j e l o
 EndChar
@@ -4131,8 +4169,8 @@ StartChar: Tok.jo
 Encoding: 276 989459 277
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 134.126 90.6309 428.929 118.546
+Flags: W
+VStem: 134.126 90.6309<129.697 265.149> 428.929 118.546<126.118 186.192>
 LayerCount: 2
 Fore
 SplineSet
@@ -4187,7 +4225,8 @@ SplineSet
  373.899414062 5.7275390625 353.689453125 1.294921875 295.689453125 0.37890625 c 0
  274.440429688 0.04296875 254.028320312 0.42578125 250.330078125 1.2265625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.jo tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.jo Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" j o
 EndChar
@@ -4245,7 +4284,8 @@ SplineSet
  232.592773438 194.181640625 218.110351562 177.515625 179.504882812 139.544921875 c 0
  155.483398438 115.916992188 127.520507812 106.52734375 100.286132812 112.943359375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.kala tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.kala Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k a l a
 EndChar
@@ -4254,9 +4294,9 @@ StartChar: Tok.kalama
 Encoding: 278 989461 279
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 224.474 58.625
-VStem: 114.461 98.7725 314.935 67.9053 315.037 80.2988 469.598 84.749
+Flags: W
+HStem: 224.474 58.625<254.296 468.534>
+VStem: 114.461 98.7725<402.589 460.22> 314.935 67.9053<373.118 519.648> 315.037 80.2988<388.195 530.912> 469.598 84.749<182.707 227.364>
 LayerCount: 2
 Fore
 SplineSet
@@ -4317,7 +4357,8 @@ SplineSet
  436.703125 82.3447265625 416.41796875 72.4091796875 383.646484375 65.4873046875 c 0
  365.708984375 61.7001953125 337.19921875 60.9892578125 319.23828125 63.8779296875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.kalama tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.kalama Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k a l a m a
 EndChar
@@ -4364,7 +4405,8 @@ SplineSet
  280.279296875 78.5224609375 260.885742188 64.8232421875 248.909179688 60.9052734375 c 0
  226.446289062 53.5537109375 176.635742188 50.634765625 156.610351562 55.4951171875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.kama tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.kama Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k a m a
 EndChar
@@ -4373,9 +4415,9 @@ StartChar: Tok.kasi
 Encoding: 280 989463 281
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 467.469 69.7676
-VStem: 86.3564 72.752 271.74 105.226
+Flags: W
+HStem: 467.469 69.7676<168.34 236.399>
+VStem: 86.3564 72.752<395.607 464.63> 271.74 105.226<-22.7169 264.753>
 LayerCount: 2
 Fore
 SplineSet
@@ -4434,7 +4476,8 @@ SplineSet
  365.9296875 -10.248046875 363.3828125 -15.265625 353.3203125 -24.677734375 c 0
  339.340820312 -37.755859375 322.624023438 -42.9296875 308.927734375 -38.421875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.kasi tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.kasi Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k a s i
 EndChar
@@ -4443,8 +4486,8 @@ StartChar: Tok.ken
 Encoding: 281 989464 282
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 105.591 132.084
+Flags: W
+VStem: 105.591 132.084<37.5976 261.135>
 LayerCount: 2
 Fore
 SplineSet
@@ -4498,7 +4541,8 @@ SplineSet
  220.103515625 -7.49609375 214.3203125 -19.896484375 203.5703125 -30.646484375 c 0
  190.565429688 -43.65234375 176.483398438 -46.806640625 157.919921875 -40.873046875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.ken tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.ken Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k e n
 EndChar
@@ -4507,9 +4551,9 @@ StartChar: Tok.kepeken
 Encoding: 282 989465 283
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 31.5928 79.1396 394.564 43.083 566.676 62.5586
-VStem: 337.719 89.9707 539.594 76.4805
+Flags: W
+HStem: 31.5928 79.1396<93.8582 158.76> 394.564 43.083<432.154 507.285> 566.676 62.5586<432.595 526.683>
+VStem: 337.719 89.9707<259.57 377.42 437.73 539.957> 539.594 76.4805<448.025 558.24>
 LayerCount: 2
 Fore
 SplineSet
@@ -4588,7 +4632,8 @@ SplineSet
  581.303710938 -18.07421875 576.204101562 -25.361328125 566.141601562 -29.9306640625 c 0
  555.015625 -34.986328125 545.705078125 -34.052734375 530.293945312 -26.337890625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.kepeken tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.kepeken Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k e p e k e n
 EndChar
@@ -4597,9 +4642,9 @@ StartChar: Tok.kili
 Encoding: 283 989466 284
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 100.461 75.8135 353.465 59.9346
-VStem: 556.698 70.5469
+Flags: W
+HStem: 100.461 75.8135<329.021 438.825> 353.465 59.9346<407.836 532.913>
+VStem: 556.698 70.5469<183.655 329.626>
 LayerCount: 2
 Fore
 SplineSet
@@ -4656,7 +4701,8 @@ SplineSet
  325.725585938 76.841796875 308.020507812 69.271484375 301.783203125 67.7197265625 c 0
  274.44921875 60.9140625 255.568359375 59.03515625 236.684570312 61.236328125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.kili tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.kili Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k i l i
 EndChar
@@ -4665,8 +4711,8 @@ StartChar: tok.kiwen
 Encoding: 284 989467 285
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 472.575 99.3193
+Flags: W
+HStem: 472.575 99.3193<264.009 443.556>
 LayerCount: 2
 Fore
 SplineSet
@@ -4720,7 +4766,8 @@ SplineSet
  435.188476562 57.568359375 428.400390625 45.923828125 419.17578125 37.62890625 c 0
  405.889648438 25.6826171875 387.142578125 21.884765625 373.4296875 28.365234375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.kiwen tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" tok.kiwen Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k i w e n
 EndChar
@@ -4729,9 +4776,9 @@ StartChar: Tok.ko
 Encoding: 285 989468 286
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 44.3359 95.5938
-VStem: 137.378 86.8301
+Flags: W
+HStem: 44.3359 95.5938<397.694 465.856>
+VStem: 137.378 86.8301<239.217 324.965>
 LayerCount: 2
 Fore
 SplineSet
@@ -4790,7 +4837,8 @@ SplineSet
  528.140625 111.379882812 482.018554688 68.5869140625 464.094726562 59.505859375 c 0
  436.200195312 45.369140625 403.09765625 39.646484375 376.321289062 44.3359375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.ko tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.ko Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k o
 EndChar
@@ -4799,9 +4847,9 @@ StartChar: Tok.kon
 Encoding: 286 989469 287
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -15.9375 77.9473 21.0928 98.1123 503.416 75.708 532.076 86.3711
-VStem: 440.084 61.6709
+Flags: W
+HStem: -15.9375 77.9473<354.447 432.552> 21.0928 98.1123<136.701 241.293> 503.416 75.708<511.823 581.157> 532.076 86.3711<244.055 308.617>
+VStem: 440.084 61.6709<393.871 494.542>
 LayerCount: 2
 Fore
 SplineSet
@@ -4859,7 +4907,8 @@ SplineSet
  511.82421875 15.421875 508.190429688 11.484375 493.934570312 1.8427734375 c 0
  468.6484375 -15.267578125 419.525390625 -23.5869140625 388.934570312 -15.9375 c 0xa8
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.kon tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.kon Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k o n
 EndChar
@@ -4868,8 +4917,8 @@ StartChar: Tok.kule
 Encoding: 287 989470 288
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 317.452 84.2051 322.604 86.8574
+Flags: W
+HStem: 317.452 84.2051<466.33 546.194> 322.604 86.8574<122.052 218.877>
 LayerCount: 2
 Fore
 SplineSet
@@ -4932,7 +4981,8 @@ SplineSet
  313.565429688 51.7470703125 279.7109375 46.8251953125 265.587890625 44.5205078125 c 0
  238.640625 40.12890625 214.297851562 39.390625 189.623046875 42.2177734375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.kule tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.kule Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k u l e
 EndChar
@@ -4941,9 +4991,9 @@ StartChar: Tok.kulupu
 Encoding: 288 989471 289
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -7.0918 96.4863 213.436 97.1084 311.238 80.5332 557.975 92.3975<292.548 321.884>
-VStem: 251.817 97.6758 374.967 73.999
+Flags: W
+HStem: -7.0918 96.4863<119.977 228.051> 213.436 97.1084<127.536 238.539> 311.238 80.5332<259.458 395.811> 557.975 92.3975<258.612 401.393>
+VStem: 251.817 97.6758<112.582 202.089> 374.967 73.999<61.7897 162.432>
 LayerCount: 2
 Fore
 SplineSet
@@ -5031,7 +5081,8 @@ SplineSet
  622.133789062 -16.265625 593.522460938 -45.4140625 578.544921875 -52.041015625 c 0
  562.993164062 -58.9248046875 513.7265625 -60.787109375 492.747070312 -55.28515625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.kulupu tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.kulupu Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k u l u p u
 EndChar
@@ -5040,8 +5091,8 @@ StartChar: Tok.kute
 Encoding: 289 989472 290
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 278.751 51.3242
+Flags: W
+VStem: 278.751 51.3242<293.602 369.596>
 LayerCount: 2
 Fore
 SplineSet
@@ -5094,7 +5145,8 @@ SplineSet
  288.064453125 -42.5185546875 285.418945312 -43.359375 272.895507812 -43.9169921875 c 0
  264.651367188 -44.2822265625 256.858398438 -43.6533203125 252.736328125 -42.2900390625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.kute tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.kute Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k u t e
 EndChar
@@ -5103,8 +5155,8 @@ StartChar: Tok.la
 Encoding: 290 989473 291
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 349.832 110.882<259.944 358.935>
+Flags: W
+VStem: 349.832 110.882<198.964 418.982>
 LayerCount: 2
 Fore
 SplineSet
@@ -5133,7 +5185,8 @@ SplineSet
  299.529296875 -22.720703125 283.813476562 -26.9287109375 269.984375 -26.9287109375 c 0
  259.166992188 -26.9287109375 257.061523438 -26.3984375 252.447265625 -22.515625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.la tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.la Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l a
 EndChar
@@ -5142,8 +5195,8 @@ StartChar: Tok.lape
 Encoding: 291 989474 292
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 245.438 102.323 257.712 86.707
+Flags: W
+HStem: 245.438 102.323<60.7901 358.127> 257.712 86.707<57.8066 441.46>
 LayerCount: 2
 Fore
 SplineSet
@@ -5181,7 +5234,8 @@ SplineSet
  617.643554688 196.954101562 605.8828125 184.709960938 592.063476562 177.553710938 c 0
  573.490234375 167.931640625 548.361328125 163.491210938 528.106445312 166.252929688 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.lape tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.lape Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l a p e
 EndChar
@@ -5190,9 +5244,9 @@ StartChar: Tok.laso
 Encoding: 292 989475 293
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -30.7363 70.2842
-VStem: 120.318 99.1279
+Flags: W
+HStem: -30.7363 70.2842<230.774 472.088>
+VStem: 120.318 99.1279<55.9664 107.257>
 LayerCount: 2
 Fore
 SplineSet
@@ -5267,7 +5321,8 @@ SplineSet
  443.51171875 -29.779296875 394.767578125 -28.7333984375 378.201171875 -30.736328125 c 0
  362.577148438 -32.623046875 290.455078125 -34.9228515625 287.477539062 -33.6279296875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.laso tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.laso Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l a s o
 EndChar
@@ -5276,9 +5331,9 @@ StartChar: Tok.lawa
 Encoding: 293 989476 294
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 386.687 83.2451
-VStem: 71.2861 82.2363 377.092 73.9551
+Flags: W
+HStem: 386.687 83.2451<443.7 605.863>
+VStem: 71.2861 82.2363<184.606 370.353> 377.092 73.9551<102.947 379.256>
 LayerCount: 2
 Fore
 SplineSet
@@ -5349,7 +5404,8 @@ SplineSet
  339.880859375 -14.576171875 322.55859375 -23.185546875 297.555664062 -28.958984375 c 0
  280.025390625 -33.009765625 262.997070312 -34.19921875 250.268554688 -32.263671875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.lawa tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.lawa Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l a w a
 EndChar
@@ -5358,9 +5414,9 @@ StartChar: Tok.len
 Encoding: 294 989477 295
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 157.569 100.467 169.081 88.0703 542.979 95.7881<373 373>
-VStem: 101.305 73.7598 103.201 61.6465 282.624 100.663 490.491 110.254 512.049 89.7998
+Flags: W
+HStem: 157.569 100.467<406.75 461.688> 169.081 88.0703<205.89 268.347> 542.979 95.7881<225.283 483.531>
+VStem: 101.305 73.7598<6.95164 164.626> 103.201 61.6465<-17.4537 157.737> 282.624 100.663<46.1553 154.315> 490.491 110.254<-8.84445 142.353> 512.049 89.7998<268.606 515.08>
 LayerCount: 2
 Fore
 SplineSet
@@ -5428,7 +5484,8 @@ SplineSet
  574.258789062 -26.1884765625 551.522460938 -41.8046875 534.778320312 -41.7060546875 c 0
  531.346679688 -41.681640625 525.340820312 -40.2158203125 521.430664062 -38.44140625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.len tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.len Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l e n
 EndChar
@@ -5437,8 +5494,8 @@ StartChar: Tok.lete
 Encoding: 295 989478 296
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 245.202 87.8223 259.798 84.1367
+Flags: W
+HStem: 245.202 87.8223<123.726 244.243> 259.798 84.1367<466.777 597.244>
 LayerCount: 2
 Fore
 SplineSet
@@ -5515,7 +5572,8 @@ SplineSet
  201.13671875 -72.9794921875 191.712890625 -74.2958984375 181.025390625 -74.7255859375 c 0
  165.815429688 -75.3408203125 162.379882812 -74.9658203125 156.07421875 -72.001953125 c 0x40
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.lete tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.lete Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l e t e
 EndChar
@@ -5559,7 +5617,8 @@ SplineSet
  264.672851562 -10.875 240.196289062 -25.015625 218.7421875 -32.4013671875 c 0
  206.013671875 -36.783203125 187.7578125 -38.7314453125 180.795898438 -36.451171875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.li tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.li Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l i
 EndChar
@@ -5568,8 +5627,8 @@ StartChar: Tok.lili
 Encoding: 297 989480 298
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 226.983 106.855
+Flags: W
+HStem: 226.983 106.855<301.655 388.487>
 VStem: 234.238 231.103
 LayerCount: 2
 Fore
@@ -5589,7 +5648,8 @@ SplineSet
  382.49609375 235.412109375 372.546875 228.168945312 349.311523438 226.983398438 c 0
  339.720703125 226.491210938 335.790039062 227.133789062 328.017578125 230.44921875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.lili tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.lili Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l i l i
 EndChar
@@ -5598,8 +5658,8 @@ StartChar: Tok.linja
 Encoding: 298 989481 299
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 310.181 93.6152
+Flags: W
+HStem: 310.181 93.6152<386.978 519.412>
 LayerCount: 2
 Fore
 SplineSet
@@ -5629,7 +5689,8 @@ SplineSet
  267.467773438 212.297851562 236.555664062 200.84375 224.88671875 198.369140625 c 0
  210.75 195.375 170.240234375 195.416015625 156.58203125 198.440429688 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.linja tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.linja Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l i n j a
 EndChar
@@ -5638,9 +5699,9 @@ StartChar: Tok.lipu
 Encoding: 299 989482 300
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -4.53613 87.2949 3.55762 79.2051 506.308 97.8115
-VStem: 133.253 81.7549 140.602 82.4824 457.625 82.1855
+Flags: W
+HStem: -4.53613 87.2949<234.736 450.949> 3.55762 79.2051<234.736 450.949> 506.308 97.8115<234.059 449.708>
+VStem: 133.253 81.7549<97.0378 219.938> 140.602 82.4824<96.4606 496.71> 457.625 82.1855<266.032 495.611>
 LayerCount: 2
 Fore
 SplineSet
@@ -5688,7 +5749,8 @@ SplineSet
  346.561523438 1.61328125 289.392578125 -0.7958984375 262.715820312 -3.2373046875 c 0
  237.23828125 -5.5673828125 212.32421875 -6.111328125 203.075195312 -4.5361328125 c 0xac
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.lipu tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.lipu Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l i p u
 EndChar
@@ -5697,8 +5759,8 @@ StartChar: Tok.loje
 Encoding: 300 989483 301
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -20.9785 56.376 540.925 61.0449
+Flags: W
+HStem: -20.9785 56.376<255.839 445.541> 540.925 61.0449<292.165 417.281>
 LayerCount: 2
 Fore
 SplineSet
@@ -5760,7 +5822,8 @@ SplineSet
  423.616210938 -20.4560546875 402.33984375 -20.9033203125 302.647460938 -20.978515625 c 0
  238.4140625 -21.0224609375 181.364257812 -20.5029296875 175.868164062 -19.8193359375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.loje tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.loje Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l o j e
 EndChar
@@ -5769,8 +5832,8 @@ StartChar: Tok.lon
 Encoding: 301 989484 302
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 130.024 130.788 143.388 92.6895 143.388 117.425 338.739 133.273 340.629 114.854
+Flags: W
+HStem: 130.024 130.788<152.441 568.934> 143.388 117.425<152.23 587.217> 143.388 92.6895<101.814 296.133> 338.739 133.273<312.404 431.624> 340.629 114.854<292.568 357.893>
 LayerCount: 2
 Fore
 SplineSet
@@ -5794,7 +5857,7 @@ SplineSet
  92.8544921875 143.651367188 93.490234375 143.323242188 88.458984375 164.75390625 c 0
  83.8994140625 184.16796875 84.0400390625 188.112304688 89.580078125 196.311523438 c 0
  92.123046875 200.068359375 97.017578125 207.338867188 100.462890625 212.465820312 c 0
- 109.44921875 225.846679688 118.502929688 231.305664062 139.623046875 236.077148438 c 0x40
+ 109.44921875 225.846679688 118.502929688 231.305664062 139.623046875 236.077148438 c 0x20
  169.776367188 242.891601562 198.42578125 247.6875 216.841796875 249.002929688 c 0
  243.819335938 250.934570312 265.74609375 253.377929688 284.041992188 256.499023438 c 0
  292.358398438 257.916992188 314.66015625 259.858398438 333.602539062 260.8125 c 0
@@ -5807,7 +5870,8 @@ SplineSet
  570.68359375 149.520507812 545.342773438 142.82421875 495.833007812 137.225585938 c 0
  408.982421875 127.399414062 362.607421875 125.723632812 296.640625 130.024414062 c 0x80
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.lon tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.lon Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l o n
 EndChar
@@ -5816,12 +5880,12 @@ StartChar: Tok.luka
 Encoding: 302 989485 303
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 479.83 125.221 479.83 134.479
+Flags: W
+VStem: 479.83 134.479<195.83 360.875> 479.83 125.221<122.357 360.875>
 LayerCount: 2
 Fore
 SplineSet
-204.129882812 60.5498046875 m 0x40
+204.129882812 60.5498046875 m 0x80
  187.008789062 67.2724609375 159.012695312 82.9130859375 147.483398438 92.1904296875 c 0
  129.901367188 106.340820312 97.2939453125 140.892578125 90.728515625 152.333007812 c 0
  86.0078125 160.559570312 85.6904296875 162.223632812 85.6904296875 178.752929688 c 0
@@ -5842,8 +5906,8 @@ SplineSet
  578.044921875 473.950195312 581.421875 466.659179688 589.296875 444.23046875 c 0
  597.490234375 420.892578125 599.954101562 410.987304688 604.7734375 382.034179688 c 0
  613.256835938 331.034179688 613.940429688 323.149414062 614.131835938 274.510742188 c 2
- 614.309570312 229.9921875 l 1x40
- 605.05078125 184.806640625 l 2x80
+ 614.309570312 229.9921875 l 1x80
+ 605.05078125 184.806640625 l 2x40
  594.375976562 132.727539062 590.793945312 123.368164062 576.620117188 110.579101562 c 0
  565.466796875 100.516601562 559.625976562 98.11328125 546.333007812 98.11328125 c 0
  532.37109375 98.11328125 518.706054688 104.760742188 505.057617188 118.197265625 c 0
@@ -5861,9 +5925,10 @@ SplineSet
  277.516601562 221.676757812 274.909179688 199.374023438 273.080078125 180.431640625 c 0
  269.744140625 145.825195312 266.708984375 130.682617188 258.533203125 107.90234375 c 0
  250.220703125 84.7314453125 242.140625 73.2607421875 228.493164062 65.2666015625 c 0
- 221.46875 61.1474609375 208.833007812 58.7041015625 204.129882812 60.5498046875 c 0x40
+ 221.46875 61.1474609375 208.833007812 58.7041015625 204.129882812 60.5498046875 c 0x80
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.luka tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.luka Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l u k a
 EndChar
@@ -5872,9 +5937,9 @@ StartChar: Tok.lukin
 Encoding: 303 989486 304
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 244.056 132.911
-VStem: 280.812 164.158
+Flags: W
+HStem: 244.056 132.911<366.995 427.008>
+VStem: 280.812 164.158<262.549 361.628>
 LayerCount: 2
 Fore
 SplineSet
@@ -5926,7 +5991,8 @@ SplineSet
  521.630859375 139.666992188 480.669921875 123.897460938 461.088867188 118.229492188 c 0
  431.516601562 109.665039062 390.31640625 102.561523438 382.451171875 104.670898438 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.lukin tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.lukin Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l u k i n
 EndChar
@@ -5935,9 +6001,9 @@ StartChar: Tok.lupa
 Encoding: 304 989487 305
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -14.1064 119.379
-VStem: 132.627 84.5332
+Flags: W
+HStem: -14.1064 119.379<292.651 402.556>
+VStem: 132.627 84.5332<189.46 463.349>
 LayerCount: 2
 Fore
 SplineSet
@@ -5980,7 +6046,8 @@ SplineSet
  397.850585938 5.30078125 369.802734375 -5.8857421875 355.669921875 -10.5380859375 c 0
  343.529296875 -14.5341796875 313.553710938 -16.587890625 303.627929688 -14.1064453125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.lupa tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.lupa Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" l u p a
 EndChar
@@ -5989,8 +6056,8 @@ StartChar: Tok.ma
 Encoding: 305 989488 306
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 350.603 96.957 559.498 79.957
+Flags: W
+VStem: 350.603 96.957<379.711 488.53> 559.498 79.957<349.41 428.33>
 LayerCount: 2
 Fore
 SplineSet
@@ -6059,7 +6126,8 @@ SplineSet
  401.755859375 20.505859375 378.506835938 11.8984375 360.569335938 8.994140625 c 0
  343.397460938 6.2109375 313.069335938 7.0390625 296.728515625 10.73046875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.ma tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.ma Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" m a
 EndChar
@@ -6127,7 +6195,8 @@ SplineSet
  490.051757812 67.734375 477.637695312 47.5068359375 464.672851562 34.6005859375 c 0
  439.643554688 9.68359375 392.717773438 -4.443359375 362.219726562 3.759765625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.mama tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.mama Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" m a m a
 EndChar
@@ -6136,9 +6205,9 @@ StartChar: Tok.mani
 Encoding: 307 989490 308
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 366.565 87.4072
-VStem: 132.134 78.3779 159.044 74.0225
+Flags: W
+HStem: 366.565 87.4072<287.247 446.558>
+VStem: 132.134 78.3779<435.501 542.478> 159.044 74.0225<153.186 303.934>
 LayerCount: 2
 Fore
 SplineSet
@@ -6190,7 +6259,8 @@ SplineSet
  376.912109375 39.783203125 362.217773438 38.587890625 343.1796875 38.119140625 c 0
  315.997070312 37.44921875 311.071289062 37.7734375 294.459960938 41.345703125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.mani tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.mani Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" m a n i
 EndChar
@@ -6199,9 +6269,9 @@ StartChar: Tok.meli
 Encoding: 308 989491 309
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 3.24414 75.4854 476.175 123.625
-VStem: 36.5703 81.9941 129.573 69.8975 560.104 106.456
+Flags: W
+HStem: 3.24414 75.4854<258.483 430.186> 476.175 123.625<255.782 482.48>
+VStem: 36.5703 81.9941<13.7347 217.876> 129.573 69.8975<133.718 287.386> 560.104 106.456<57.1972 199.072>
 LayerCount: 2
 Fore
 SplineSet
@@ -6274,7 +6344,8 @@ SplineSet
  121.903320312 46.84375 120.249023438 34.6318359375 115.245117188 22.9619140625 c 0
  107.44921875 4.7958984375 87.939453125 -4.4228515625 71.95703125 2.5087890625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.meli tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.meli Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" m e l i
 EndChar
@@ -6283,8 +6354,8 @@ StartChar: Tok.mi
 Encoding: 309 989492 310
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 440.675 61.54
+Flags: W
+VStem: 440.675 61.54<396.603 490.274>
 LayerCount: 2
 Fore
 SplineSet
@@ -6327,7 +6398,8 @@ SplineSet
  293.41796875 35.41796875 288.083007812 32.22265625 274.63671875 31.6923828125 c 0
  268.416015625 31.4462890625 259.580078125 32.3349609375 254.94921875 33.6640625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.mi tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.mi Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" m i
 EndChar
@@ -6336,9 +6408,9 @@ StartChar: Tok.mije
 Encoding: 310 989493 311
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 123.378 89.6406 476.714 99.2383
-VStem: 190.314 88.584 549.994 88.04
+Flags: W
+HStem: 123.378 89.6406<161.058 251.347> 476.714 99.2383<337.256 474.562>
+VStem: 190.314 88.584<315.82 417.073> 549.994 88.04<36.8613 109.691>
 LayerCount: 2
 Fore
 SplineSet
@@ -6397,7 +6469,8 @@ SplineSet
  121.01171875 31.7353515625 106.461914062 23.474609375 100.64453125 23.5400390625 c 0
  98.7470703125 23.5732421875 94.1708984375 24.9619140625 90.47265625 26.6533203125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.mije tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.mije Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" m i j e
 EndChar
@@ -6406,9 +6479,9 @@ StartChar: Tok.moku
 Encoding: 311 989494 312
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 463.191 79.918<278.31 324.818>
-VStem: 493.851 73.6055
+Flags: W
+HStem: 463.191 79.918<284.437 493.665>
+VStem: 493.851 73.6055<427.654 483.574>
 LayerCount: 2
 Fore
 SplineSet
@@ -6473,7 +6546,8 @@ SplineSet
  250.935546875 54.8359375 243.248046875 45.419921875 231.6953125 39.4619140625 c 0
  223.430664062 35.19921875 207.14453125 34.02734375 197.977539062 37.03515625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.moku tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.moku Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" m o k u
 EndChar
@@ -6482,8 +6556,8 @@ StartChar: Tok.moli
 Encoding: 312 989495 313
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 515.177 76.7881
+Flags: W
+HStem: 515.177 76.7881<248.383 486.461>
 LayerCount: 2
 Fore
 SplineSet
@@ -6577,7 +6651,8 @@ SplineSet
  412.905273438 2.580078125 402.3203125 0.6796875 395.391601562 -0.783203125 c 0
  375.546875 -4.97265625 359.780273438 -5.1884765625 338.270507812 -1.5625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.moli tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.moli Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" m o l i
 EndChar
@@ -6586,9 +6661,9 @@ StartChar: Tok.monsi
 Encoding: 313 989496 314
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 1.10645 110.831 249.009 131.789 496.855 104.323
-VStem: 160.854 115.206
+Flags: W
+HStem: 1.10645 110.831<404.402 509.925> 249.009 131.789<189.518 196.924 208.237 255.81> 496.855 104.323<393.984 494.058>
+VStem: 160.854 115.206<312.68 367.793>
 LayerCount: 2
 Fore
 SplineSet
@@ -6636,7 +6711,8 @@ SplineSet
  386.001953125 -1.5048828125 376.951171875 -2.5302734375 373.71484375 -2.8681640625 c 0
  370.481445312 -3.2099609375 362.2578125 -2.8349609375 355.438476562 -2.0751953125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.monsi tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.monsi Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" m o n s i
 EndChar
@@ -6645,9 +6721,9 @@ StartChar: Tok.mu
 Encoding: 314 989497 315
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 597.985 77.3184
-VStem: 92.1592 82.5957 562.383 70.1406
+Flags: W
+HStem: 597.985 77.3184<491.297 559.828>
+VStem: 92.1592 82.5957<89.8196 280.625> 562.383 70.1406<530.096 587.696>
 LayerCount: 2
 Fore
 SplineSet
@@ -6746,7 +6822,8 @@ SplineSet
  408.697265625 -65.2822265625 381.432617188 -71.46484375 349.060546875 -73.98046875 c 0
  325.168945312 -75.83984375 328.34765625 -75.9052734375 305.795898438 -73.10546875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.mu tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.mu Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" m u
 EndChar
@@ -6755,9 +6832,9 @@ StartChar: Tok.mun
 Encoding: 315 989498 316
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -34.2188 83.0879
-VStem: 151.806 93.1494 477.839 70.3584
+Flags: W
+HStem: -34.2188 83.0879<244.958 370.551>
+VStem: 151.806 93.1494<51.1024 86.1449> 477.839 70.3584<169.152 383.669>
 LayerCount: 2
 Fore
 SplineSet
@@ -6805,7 +6882,8 @@ SplineSet
  300.015625 -33.58984375 294.481445312 -34.32421875 275.395507812 -34.21875 c 0
  261.262695312 -34.13671875 249.005859375 -33.0087890625 238.625 -30.828125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.mun tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.mun Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" m u n
 EndChar
@@ -6814,8 +6892,8 @@ StartChar: Tok.musi
 Encoding: 316 989499 317
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 188.522 77.0684 532.626 58.7002<526 526>
+Flags: W
+VStem: 188.522 77.0684<139.212 401.136> 532.626 58.7002<509.604 556.625>
 LayerCount: 2
 Fore
 SplineSet
@@ -6880,7 +6958,8 @@ SplineSet
  412.713867188 -16.49609375 390.69140625 -24.5869140625 362.288085938 -28.0703125 c 0
  344.815429688 -30.208984375 315.889648438 -30.203125 302.979492188 -28.0703125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.musi tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.musi Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" m u s i
 EndChar
@@ -6889,8 +6968,8 @@ StartChar: Tok.mute
 Encoding: 317 989500 318
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 137.471 109.7 158.468 93.0674 277.584 119.919 299.268 114.646 428.982 91.1475 448.178 113.973
+Flags: W
+VStem: 137.471 109.7<110.179 173.747 176.88 478.732> 158.468 93.0674<228.126 488.088> 277.584 119.919<93.0387 261.127> 299.268 114.646<159.943 474.541> 428.982 91.1475<78.3474 250.929> 448.178 113.973<395.043 525.352>
 LayerCount: 2
 Fore
 SplineSet
@@ -6947,7 +7026,8 @@ SplineSet
  362.3359375 58.939453125 340.375 41.037109375 315.530273438 41.3818359375 c 0
  310.249023438 41.453125 304.797851562 41.939453125 303.413085938 42.458984375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.mute tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.mute Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" m u t e
 EndChar
@@ -6956,9 +7036,9 @@ StartChar: Tok.nanpa
 Encoding: 318 989501 319
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 147.464 85.9033 148.646 120.005 366.572 74.249
-VStem: 222.94 80.5381 228.443 84.6699 241.808 79.1572 419.863 88.2656 430.521 75.9541 448.28 72.502
+Flags: W
+HStem: 147.464 85.9033<527.578 585.115> 148.646 120.005<119.243 227.129> 366.572 74.249<536.198 623.231>
+VStem: 222.94 80.5381<44.1744 139.474> 228.443 84.6699<454.901 588.67> 241.808 79.1572<263.275 366.481> 419.863 88.2656<454.257 578.933> 430.521 75.9541<496.271 583.913> 448.28 72.502<246.272 358.042>
 LayerCount: 2
 Fore
 SplineSet
@@ -7034,7 +7114,8 @@ SplineSet
  512.193359375 76.482421875 505.473632812 42.0537109375 498.15234375 27.705078125 c 0
  488.776367188 9.3232421875 457.369140625 -1.89453125 439.684570312 6.82421875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.nanpa tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.nanpa Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" n a n p a
 EndChar
@@ -7043,9 +7124,9 @@ StartChar: Tok.nasa
 Encoding: 319 989502 320
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 161.262 48.21 519.621 80.8594
-VStem: 115.409 61.6396 307.469 41.3232 372.294 58.0645
+Flags: W
+HStem: 161.262 48.21<285.233 353.296> 519.621 80.8594<282.339 422.206>
+VStem: 115.409 61.6396<139.795 321.35> 307.469 41.3232<242.172 290.061> 372.294 58.0645<257.943 394.863>
 LayerCount: 2
 Fore
 SplineSet
@@ -7118,7 +7199,8 @@ SplineSet
  333.137695312 1.8642578125 322.729492188 0.52734375 303.759765625 -0.125 c 0
  280.528320312 -0.927734375 278.514648438 -0.73046875 260.266601562 4.154296875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.nasa tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.nasa Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" n a s a
 EndChar
@@ -7127,8 +7209,8 @@ StartChar: Tok.nasin
 Encoding: 320 989503 321
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 313.199 84.3867 328.088 76.5625 343.113 71.21
+Flags: W
+VStem: 313.199 84.3867<-21.095 235.47> 328.088 76.5625<-15.701 235.47> 343.113 71.21<425.078 631.81>
 LayerCount: 2
 Fore
 SplineSet
@@ -7168,7 +7250,8 @@ SplineSet
  392.561523438 -0.1533203125 388.254882812 -11.6748046875 377.529296875 -21.5595703125 c 0
  362.55859375 -35.361328125 341.657226562 -41.7080078125 330.330078125 -35.8974609375 c 0x80
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.nasin tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.nasin Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" n a s i n
 EndChar
@@ -7177,9 +7260,9 @@ StartChar: Tok.nena
 Encoding: 321 989504 322
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 492.043 142.054
-VStem: 109.913 115.117
+Flags: W
+HStem: 492.043 142.054<359.659 458.372>
+VStem: 109.913 115.117<8.20134 291.692>
 LayerCount: 2
 Fore
 SplineSet
@@ -7225,7 +7308,8 @@ SplineSet
  204.173828125 -6.578125 195.833984375 -19.244140625 181.837890625 -28.5078125 c 0
  174.612304688 -33.2890625 161.052734375 -35.599609375 155.259765625 -33.0361328125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.nena tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.nena Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" n e n a
 EndChar
@@ -7234,8 +7318,8 @@ StartChar: Tok.ni
 Encoding: 322 989505 323
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 313.193 104.3
+Flags: W
+VStem: 313.193 104.3<355.354 616.251>
 LayerCount: 2
 Fore
 SplineSet
@@ -7269,7 +7353,8 @@ SplineSet
  441.001953125 2.962890625 403.6875 -15.0947265625 390.081054688 -19.5927734375 c 0
  365.963867188 -27.56640625 336.213867188 -30.068359375 319.397460938 -25.5400390625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.ni tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.ni Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" n i
 EndChar
@@ -7278,8 +7363,8 @@ StartChar: Tok.nimi
 Encoding: 323 989506 324
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 153.498 94.582 164.176 81.4541 356.741 87.4043
+Flags: W
+HStem: 153.498 94.582<224.478 450.968> 164.176 81.4541<328.554 473.081> 356.741 87.4043<201.339 467.6>
 LayerCount: 2
 Fore
 SplineSet
@@ -7315,7 +7400,8 @@ SplineSet
  371.90234375 157.900390625 358.603515625 155.8671875 334.171875 153.498046875 c 0
  330.938476562 153.180664062 322.82421875 153.498046875 316.138671875 154.178710938 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.nimi tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.nimi Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" n i m i
 EndChar
@@ -7324,9 +7410,9 @@ StartChar: Tok.noka
 Encoding: 324 989507 325
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 207.653 86.416
-VStem: 141.415 75.3281 227.582 104.866
+Flags: W
+HStem: 207.653 86.416<323.61 410.105>
+VStem: 141.415 75.3281<279.85 565.605> 227.582 104.866<293.001 505.24>
 LayerCount: 2
 Fore
 SplineSet
@@ -7374,7 +7460,8 @@ SplineSet
  312.081054688 14.4384765625 278.44140625 13.32421875 265.50390625 12.845703125 c 0
  250.458007812 12.2880859375 235.586914062 12.7978515625 224.225585938 14.2509765625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.noka tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.noka Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" n o k a
 EndChar
@@ -7383,9 +7470,9 @@ StartChar: Tok.o
 Encoding: 325 989508 326
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 2.11621 84.1064
-VStem: 350.612 79.7686
+Flags: W
+HStem: 2.11621 84.1064<304.113 346.66>
+VStem: 350.612 79.7686<-60.7382 -8.58302>
 LayerCount: 2
 Fore
 SplineSet
@@ -7428,7 +7515,8 @@ SplineSet
  400.958984375 -109.544921875 373.940429688 -123.931640625 346.466796875 -130.876953125 c 0
  329.458984375 -135.1796875 327.250976562 -135.1796875 311.131835938 -130.911132812 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.o tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.o Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" o
 EndChar
@@ -7437,9 +7525,9 @@ StartChar: Tok.olin
 Encoding: 326 989509 327
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 119.085 78.0596
-VStem: 183.866 77.29 217.974 67.3203
+Flags: W
+HStem: 119.085 78.0596<309.157 382.458>
+VStem: 183.866 77.29<407.852 473.955> 217.974 67.3203<63.6403 135.292>
 LayerCount: 2
 Fore
 SplineSet
@@ -7501,7 +7589,8 @@ SplineSet
  364.994140625 -27.3095703125 352.819335938 -35.6162109375 327.341796875 -36.8388671875 c 0
  319.1015625 -37.232421875 310.470703125 -36.9287109375 308.16015625 -36.1630859375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.olin tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.olin Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" o l i n
 EndChar
@@ -7510,8 +7599,8 @@ StartChar: Tok.ona
 Encoding: 327 989510 328
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 167.978 93.7891
+Flags: W
+HStem: 167.978 93.7891<447.568 543.503>
 LayerCount: 2
 Fore
 SplineSet
@@ -7548,7 +7637,8 @@ SplineSet
  515.602539062 175.643554688 487.462890625 169.030273438 464.077148438 167.977539062 c 0
  426.2265625 166.268554688 407.202148438 166.114257812 398.55078125 167.444335938 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.ona tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.ona Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" o n a
 EndChar
@@ -7557,9 +7647,9 @@ StartChar: Tok.open
 Encoding: 328 989511 329
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 27.7461 58.8574
-VStem: 84.9082 118.487 107.58 111.815 122.701 96.6943
+Flags: W
+HStem: 27.7461 58.8574<226.628 407.465>
+VStem: 84.9082 118.487<91.9228 180.15> 107.58 111.815<332.841 575.935> 122.701 96.6943<332.841 575.935>
 LayerCount: 2
 Fore
 SplineSet
@@ -7628,7 +7718,8 @@ SplineSet
  179.86328125 1.732421875 164.366210938 0.62109375 158.822265625 0.201171875 c 0
  153.278320312 -0.2158203125 144.961914062 0.396484375 140.340820312 1.564453125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.open tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.open Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" o p e n
 EndChar
@@ -7637,8 +7728,8 @@ StartChar: Tok.pakala
 Encoding: 329 989512 330
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 507.539 80.5957
+Flags: W
+VStem: 507.539 80.5957<223.835 423.989>
 LayerCount: 2
 Fore
 SplineSet
@@ -7703,7 +7794,8 @@ SplineSet
  341.794921875 46.4658203125 330.139648438 45.3798828125 322.15234375 44.0498046875 c 0
  286.786132812 38.1708984375 193.438476562 36.16796875 171.720703125 40.8232421875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.pakala tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.pakala Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p a k a l a
 EndChar
@@ -7773,7 +7865,8 @@ SplineSet
  260.286132812 15.0693359375 243.168945312 -6.921875 231.263671875 -11.8984375 c 0
  224.461914062 -14.7421875 215.028320312 -14.6123046875 206.706054688 -11.5595703125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.pali tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.pali Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p a l i
 EndChar
@@ -7782,8 +7875,8 @@ StartChar: Tok.palisa
 Encoding: 331 989514 332
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 206.722 102.495 399.823 90.9766
+Flags: W
+VStem: 206.722 102.495<115.617 379.736> 399.823 90.9766<214.122 465.65>
 LayerCount: 2
 Fore
 SplineSet
@@ -7821,7 +7914,8 @@ SplineSet
  422.932617188 34.4541015625 394.56640625 12.4560546875 365.834960938 1.119140625 c 0
  352.122070312 -4.294921875 337.080078125 -4.9921875 320.359375 -0.994140625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.palisa tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.palisa Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p a l i s a
 EndChar
@@ -7830,8 +7924,8 @@ StartChar: Tok.pan
 Encoding: 332 989515 333
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 199.521 71.8965 476.691 52.083
+Flags: W
+VStem: 199.521 71.8965<531.763 606.681> 476.691 52.083<357.315 425.641>
 LayerCount: 2
 Fore
 SplineSet
@@ -7888,7 +7982,8 @@ SplineSet
  359.215820312 -16.380859375 356.358398438 -16.849609375 337.384765625 -17.208984375 c 0
  325.8359375 -17.427734375 311.223632812 -16.9658203125 304.91796875 -16.1796875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.pan tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.pan Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p a n
 EndChar
@@ -7897,9 +7992,9 @@ StartChar: Tok.pana
 Encoding: 333 989516 334
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 455.608 63.3965
-VStem: 190.08 85.0732 372.025 78.542 438.146 115.264
+Flags: W
+HStem: 455.608 63.3965<554.263 599.931>
+VStem: 190.08 85.0732<446.685 544.7> 372.025 78.542<458.938 598.24> 438.146 115.264<26.686 152.738>
 LayerCount: 2
 Fore
 SplineSet
@@ -7960,7 +8055,8 @@ SplineSet
  548.068359375 63.9638671875 542.708984375 46.26953125 535.319335938 32.3984375 c 0
  518.461914062 0.7587890625 490.307617188 -12.259765625 466.631835938 0.6357421875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.pana tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.pana Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p a n a
 EndChar
@@ -7969,9 +8065,9 @@ StartChar: Tok.pi
 Encoding: 334 989517 335
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 56.875 101.568 66.0693 94.3877
-VStem: 161.652 111.146
+Flags: W
+HStem: 56.875 101.568<263.579 532.231> 66.0693 94.3877<262.836 544.96>
+VStem: 161.652 111.146<191.897 525.518>
 LayerCount: 2
 Fore
 SplineSet
@@ -8001,7 +8097,8 @@ SplineSet
  398.223632812 60.9013671875 358.411132812 57.404296875 338.938476562 56.875 c 0
  265.390625 54.875 244.411132812 54.8857421875 221.189453125 56.916015625 c 0xa0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.pi tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.pi Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p i
 EndChar
@@ -8010,8 +8107,8 @@ StartChar: Tok.pilin
 Encoding: 335 989518 336
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 515.681 97.877
+Flags: W
+VStem: 515.681 97.877<286.719 383.213>
 LayerCount: 2
 Fore
 SplineSet
@@ -8068,7 +8165,8 @@ SplineSet
  473.130859375 74.943359375 458.703125 63.181640625 452.759765625 58.328125 c 0
  415.828125 28.158203125 371.852539062 13.79296875 341.436523438 21.96875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.pilin tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.pilin Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p i l i n
 EndChar
@@ -8077,8 +8175,8 @@ StartChar: Tok.pimeja
 Encoding: 336 989519 337
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 55.4834 81.4746
+Flags: W
+HStem: 55.4834 81.4746<160.783 251.116>
 LayerCount: 2
 Fore
 SplineSet
@@ -8140,7 +8238,8 @@ SplineSet
  334.665039062 67.2314453125 318.033203125 65.4853515625 306.483398438 64.025390625 c 0
  229.405273438 54.27734375 162.966796875 50.955078125 135.721679688 55.4833984375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.pimeja tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.pimeja Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p i m e j a
 EndChar
@@ -8149,9 +8248,9 @@ StartChar: Tok.pini
 Encoding: 337 989520 338
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -34.3584 107.636 517.132 105.438 526.596 118.628
-VStem: 309.228 72.792
+Flags: W
+HStem: -34.3584 107.636<182.568 287.323 389.005 479.948> 517.132 105.438<423.101 524.067> 526.596 118.628<230.982 302.646>
+VStem: 309.228 72.792<100.963 384.02>
 LayerCount: 2
 Fore
 SplineSet
@@ -8195,7 +8294,8 @@ SplineSet
  507.907226562 -23.8544921875 492.772460938 -34.8505859375 450.362304688 -40.9716796875 c 0
  431.59765625 -43.6787109375 373.150390625 -46.6220703125 368.830078125 -45.0771484375 c 0xd0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.pini tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.pini Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p i n i
 EndChar
@@ -8204,9 +8304,9 @@ StartChar: Tok.pipi
 Encoding: 338 989521 339
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -25.1162 107.495<198 198> -2.44531 103.931 153.541 125.364 155.387 115.217<217.345 254.146 254.146 254.146 254.146 264.421> 180.629 99.0176 350.365 100.16 383.643 79.3818 531.664 124.492 536.853 129.612
-VStem: 148.258 153.795 330.88 91.3184
+Flags: W
+HStem: -25.1162 107.495<127.54 263.654> -2.44531 103.931<407.74 545.163> 153.541 125.364<417.594 527.763> 155.387 115.217<169.598 264.421> 180.629 99.0176<467.37 584.166> 350.365 100.16<159.152 279.218> 383.643 79.3818<516.046 595.198> 531.664 124.492<160.362 250.394> 536.853 129.612<201.099 280.457>
+VStem: 148.258 153.795<558.763 645.944> 330.88 91.3184<482.542 584.667>
 LayerCount: 2
 Fore
 SplineSet
@@ -8306,7 +8406,8 @@ SplineSet
  372.8359375 -64.962890625 357.21875 -76.5771484375 333.536132812 -77.564453125 c 0
  326.1328125 -77.8759765625 317.26953125 -77.1376953125 312.590820312 -75.8251953125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.pipi tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.pipi Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p i p i
 EndChar
@@ -8315,9 +8416,9 @@ StartChar: Tok.poka
 Encoding: 339 989522 340
 Width: 700
 GlyphClass: 3
-Flags: MW
+Flags: W
 HStem: 176.132 246.449
-VStem: 66.8682 79.8779 435.154 64.3574
+VStem: 66.8682 79.8779<361.316 414.777> 435.154 64.3574<335.903 419.01>
 LayerCount: 2
 Fore
 SplineSet
@@ -8359,7 +8460,8 @@ SplineSet
  220.639648438 176.875976562 201.362304688 175.754882812 196.279296875 175.403320312 c 0
  191.197265625 175.047851562 176.393554688 175.366210938 163.384765625 176.131835938 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.poka tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.poka Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p o k a
 EndChar
@@ -8368,9 +8470,9 @@ StartChar: Tok.poki
 Encoding: 340 989523 341
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 5.5752 114.146
-VStem: 113.111 93.748 460.377 140.29
+Flags: W
+HStem: 5.5752 114.146<201.904 403.721>
+VStem: 113.111 93.748<263.923 565.025> 460.377 140.29<175.895 502.388>
 LayerCount: 2
 Fore
 SplineSet
@@ -8414,7 +8516,8 @@ SplineSet
  347.54296875 7.60546875 315.833984375 6.4365234375 303.358398438 5.5751953125 c 0
  267.514648438 3.107421875 204.107421875 2.181640625 197.517578125 4.0302734375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.poki tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.poki Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p o k i
 EndChar
@@ -8423,7 +8526,7 @@ StartChar: Tok.pona
 Encoding: 341 989524 342
 Width: 700
 GlyphClass: 3
-Flags: MW
+Flags: W
 HStem: 164.675 272.002
 LayerCount: 2
 Fore
@@ -8456,7 +8559,8 @@ SplineSet
  435.029296875 164.900390625 429.783203125 163.6015625 399.329101562 162.213867188 c 0
  387.047851562 161.65625 378.0078125 162.3203125 365.7265625 164.674804688 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.pona tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.pona Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p o n a
 EndChar
@@ -8465,9 +8569,9 @@ StartChar: Tok.pu
 Encoding: 342 989525 343
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 164.988 43.416
-VStem: 118.563 80.1992 238.175 58.752 339.173 44.5869 520.253 68.0449 521.74 60.5459
+Flags: W
+HStem: 164.988 43.416<292.786 379.922>
+VStem: 118.563 80.1992<51.2632 117.014> 238.175 58.752<368.514 430.127> 339.173 44.5869<392.606 451.874> 520.253 68.0449<64.0674 521.636> 521.74 60.5459<67.816 318.243>
 LayerCount: 2
 Fore
 SplineSet
@@ -8588,7 +8692,8 @@ SplineSet
  332.88671875 -73.52734375 323.364257812 -74.94921875 273.106445312 -77.830078125 c 0
  244.180664062 -79.4921875 196.393554688 -79.7890625 185.747070312 -78.3740234375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.pu tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.pu Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" p u
 EndChar
@@ -8597,8 +8702,8 @@ StartChar: Tok.sama
 Encoding: 343 989526 344
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 144.8 93.3955 183.639 81.5352 322.395 113.523
+Flags: W
+HStem: 144.8 93.3955<189.127 447.413> 183.639 81.5352<430.971 552.151> 322.395 113.523<164.14 460.482>
 LayerCount: 2
 Fore
 SplineSet
@@ -8642,7 +8747,8 @@ SplineSet
  369.586914062 146.5390625 360.987304688 145.442382812 318.249023438 144.583984375 c 0
  296.073242188 144.140625 277.482421875 144.236328125 276.935546875 144.799804688 c 0xa0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.sama tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.sama Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s a m a
 EndChar
@@ -8651,9 +8757,9 @@ StartChar: Tok.seli
 Encoding: 344 989527 345
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 14.376 141.154
-VStem: 227.531 148.162 294.186 104.347
+Flags: W
+HStem: 14.376 141.154<245.262 350.673>
+VStem: 227.531 148.162<35.1356 137.699> 294.186 104.347<333.468 536.79>
 LayerCount: 2
 Fore
 SplineSet
@@ -8709,7 +8815,8 @@ SplineSet
  338.642578125 19.1298828125 324.400390625 12.7861328125 307.064453125 12.2626953125 c 0
  299.073242188 12.0205078125 289.87890625 12.8779296875 284.3828125 14.3759765625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.seli tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.seli Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s e l i
 EndChar
@@ -8718,8 +8825,8 @@ StartChar: Tok.selo
 Encoding: 345 989528 346
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 85.5303 49.5947 160.113 45.7637 405.202 56.2393 534.743 76.8975
+Flags: W
+VStem: 85.5303 49.5947<127.032 251.969> 160.113 45.7637<200.486 251.406> 405.202 56.2393<243.882 340.613> 534.743 76.8975<215.772 296.54>
 LayerCount: 2
 Fore
 SplineSet
@@ -8765,7 +8872,8 @@ SplineSet
  129.009765625 142.075195312 119.908203125 126.608398438 106.831054688 123.327148438 c 0
  103.782226562 122.561523438 101.266601562 123.471679688 97.376953125 126.745117188 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.selo tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.selo Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s e l o
 EndChar
@@ -8774,9 +8882,9 @@ StartChar: Tok.seme
 Encoding: 346 989529 347
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -101.07 147.229
-VStem: 144.337 86.3613 276.068 119.26 289.662 154.396 488.591 66.7529
+Flags: W
+HStem: -101.07 147.229<293.515 399.761>
+VStem: 144.337 86.3613<475.397 580.872> 276.068 119.26<116.028 215.695> 289.662 154.396<-47.0767 39.2861> 488.591 66.7529<402.335 567.296>
 LayerCount: 2
 Fore
 SplineSet
@@ -8823,7 +8931,8 @@ SplineSet
  388.461914062 -93.9130859375 365.434570312 -100.27734375 352.627929688 -101.0703125 c 0
  341.775390625 -101.744140625 338.12890625 -101.17578125 326.37109375 -96.986328125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.seme tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.seme Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s e m e
 EndChar
@@ -8832,8 +8941,8 @@ StartChar: Tok.sewi
 Encoding: 347 989530 348
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 52.5967 90.5859 142.031 49.5127 433.146 84.2148 530.247 74.5225 560.906 83.5488
+Flags: W
+VStem: 52.5967 90.5859<1.09888 47.7977> 142.031 49.5127<142.693 218.435> 433.146 84.2148<202.319 450.199> 530.247 74.5225<45.8455 180.479> 560.906 83.5488<381.774 599.594>
 LayerCount: 2
 Fore
 SplineSet
@@ -8900,7 +9009,8 @@ SplineSet
  133.557617188 9.6845703125 130.423828125 6.5537109375 117.561523438 -1.5400390625 c 0
  100.362304688 -12.361328125 80.2822265625 -17.7548828125 69.40234375 -14.4736328125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.sewi tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.sewi Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s e w i
 EndChar
@@ -8909,9 +9019,9 @@ StartChar: Tok.sijelo
 Encoding: 348 989531 349
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 484.951 147.995
-VStem: 100.334 97.6201 243.984 130.252 279.326 94.9102 461.732 92.7949 469.379 130.402 471.033 110.82
+Flags: W
+HStem: 484.951 147.995<394.738 448.254>
+VStem: 100.334 97.6201<7.61395 269.418> 243.984 130.252<24.5119 321.54> 279.326 94.9102<268.627 452.43> 461.732 92.7949<10.1514 64.3203> 469.379 130.402<71.7111 478.297> 471.033 110.82<193.552 477.735>
 LayerCount: 2
 Fore
 SplineSet
@@ -8970,7 +9080,8 @@ SplineSet
  186.517578125 38.318359375 173.034179688 -8.3193359375 163.997070312 -22.1083984375 c 0
  158.651367188 -30.2705078125 143.232421875 -34.5390625 134.055664062 -30.4033203125 c 0xd0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.sijelo tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.sijelo Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s i j e l o
 EndChar
@@ -8979,9 +9090,9 @@ StartChar: Tok.sike
 Encoding: 349 989532 350
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 529.467 93.1602
-VStem: 207.123 67.3105 533.99 114.26
+Flags: W
+HStem: 529.467 93.1602<246.869 424.945>
+VStem: 207.123 67.3105<291.049 385.476> 533.99 114.26<207.929 410.554>
 LayerCount: 2
 Fore
 SplineSet
@@ -9051,7 +9162,8 @@ SplineSet
  473.666992188 1.189453125 434.483398438 -17.267578125 415.434570312 -20.7333984375 c 0
  374.525390625 -28.181640625 291.366210938 -31.578125 269.012695312 -26.71875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.sike tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.sike Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s i k e
 EndChar
@@ -9060,9 +9172,9 @@ StartChar: Tok.sin
 Encoding: 350 989533 351
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 114.935 97.6621 132.503 96.2129 132.66 80.3057 142.545 82.7041
-VStem: 303.004 91.4619
+Flags: W
+HStem: 114.935 97.6621<95.1501 272.913> 132.503 96.2129<408.803 572.591> 132.66 80.3057<405.304 499.651> 142.545 82.7041<516.587 603.252>
+VStem: 303.004 91.4619<290.54 473.042>
 LayerCount: 2
 Fore
 SplineSet
@@ -9100,7 +9212,8 @@ SplineSet
  262.23828125 125.885742188 252.99609375 120.663085938 237.075195312 116.30859375 c 0
  223.35546875 112.555664062 177.947265625 111.8515625 148.515625 114.934570312 c 0x88
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.sin tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.sin Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s i n
 EndChar
@@ -9109,9 +9222,9 @@ StartChar: Tok.sina
 Encoding: 351 989534 352
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 199.339 62.1523
-VStem: 195.189 93.3408
+Flags: W
+HStem: 199.339 62.1523<323 405.317>
+VStem: 195.189 93.3408<80.7923 184.782>
 LayerCount: 2
 Fore
 SplineSet
@@ -9149,7 +9262,8 @@ SplineSet
  434.012695312 29.88671875 389.319335938 11.5087890625 367.46875 6.0263671875 c 0
  352.450195312 2.2587890625 330.420898438 2.9150390625 309.493164062 7.751953125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.sina tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.sina Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s i n a
 EndChar
@@ -9158,9 +9272,9 @@ StartChar: Tok.sinpin
 Encoding: 352 989535 353
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -1.17871 104.323 488.062 110.831
-VStem: 423.94 115.206
+Flags: W
+HStem: -1.17871 104.323<205.942 306.016> 488.062 110.831<190.075 295.598>
+VStem: 423.94 115.206<232.207 287.32>
 LayerCount: 2
 Fore
 SplineSet
@@ -9208,7 +9322,8 @@ SplineSet
  313.998046875 601.504882812 323.048828125 602.530273438 326.28515625 602.868164062 c 0
  329.518554688 603.209960938 337.7421875 602.834960938 344.561523438 602.075195312 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.sinpin tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.sinpin Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s i n p i n
 EndChar
@@ -9217,9 +9332,9 @@ StartChar: Tok.sitelen
 Encoding: 353 989536 354
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 219.791 87.2031<348.31 348.31 348.31 348.376> 530.563 110.397
-VStem: 103.241 94.7734 107.767 75.8379 220.583 73.9414 307.782 80.9141 403.011 77.8711<269 269> 495.351 91.249
+Flags: W
+HStem: 219.791 87.2031<348.31 376.83 376.952 381.793 420.415 450.722> 530.563 110.397<315.843 461.255>
+VStem: 103.241 94.7734<75.2188 423.653> 107.767 75.8379<99.5965 366.537> 220.583 73.9414<200.795 276.125> 307.782 80.9141<245.887 305.107> 403.011 77.8711<234.928 299.217> 495.351 91.249<73.9404 474.728>
 LayerCount: 2
 Fore
 SplineSet
@@ -9303,7 +9418,8 @@ SplineSet
  528.774414062 -18.912109375 503.211914062 -32.26953125 476.896484375 -37.841796875 c 0
  462.547851562 -40.8798828125 403.215820312 -42.2060546875 366.85546875 -40.3056640625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.sitelen tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.sitelen Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s i t e l e n
 EndChar
@@ -9312,9 +9428,9 @@ StartChar: Tok.sona
 Encoding: 354 989537 355
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -76.2939 114.902
-VStem: 337.19 86.0332 521.538 91.1299
+Flags: W
+HStem: -76.2939 114.902<225.164 456.031>
+VStem: 337.19 86.0332<525.091 577.236 615.836 638.349> 521.538 91.1299<79.9912 265.553>
 LayerCount: 2
 Fore
 SplineSet
@@ -9389,7 +9505,8 @@ SplineSet
  329.1953125 -75.1787109375 306.961914062 -75.2373046875 296.270507812 -76.3173828125 c 0
  278.212890625 -78.1455078125 254.25 -78.1357421875 225.466796875 -76.2939453125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.sona tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.sona Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s o n a
 EndChar
@@ -9398,9 +9515,9 @@ StartChar: Tok.soweli
 Encoding: 355 989538 356
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 399.21 63.8027 466.424 128.652
-VStem: 52.1182 75.667 275.834 74.457 285.862 85.1689<198 198> 397.924 91.0889 405.051 90.7334 570.207 78.6777
+Flags: W
+HStem: 399.21 63.8027<482.556 547.371> 466.424 128.652<297.486 356.186>
+VStem: 52.1182 75.667<20.3268 187.283> 275.834 74.457<17.6606 115.366> 285.862 85.1689<157.962 198.116> 397.924 91.0889<16.7119 96.0221> 405.051 90.7334<37.3501 220.434> 570.207 78.6777<354.626 484.259>
 LayerCount: 2
 Fore
 SplineSet
@@ -9496,7 +9613,8 @@ SplineSet
  144.666015625 123.385742188 137.806640625 93.3486328125 127.78515625 63.1171875 c 0
  113.357421875 19.5927734375 91.63671875 -2.0400390625 70.732421875 6.296875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.soweli tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.soweli Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s o w e l i
 EndChar
@@ -9571,7 +9689,8 @@ SplineSet
  392.228515625 -119.3125 378.764648438 -131.702148438 369.451171875 -135.595703125 c 0
  362.16015625 -138.640625 349.848632812 -138.72265625 340.4765625 -135.787109375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.suli tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.suli Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s u l i
 EndChar
@@ -9580,8 +9699,8 @@ StartChar: Tok.suno
 Encoding: 357 989540 358
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 160.082 63.7764 252.214 91.6221 347.568 88.002 476.952 48.084
+Flags: W
+VStem: 160.082 63.7764<199.01 269.849> 252.214 91.6221<-87.464 55.7251> 347.568 88.002<541.588 692.047> 476.952 48.084<337.65 421.372>
 LayerCount: 2
 Fore
 SplineSet
@@ -9650,7 +9769,8 @@ SplineSet
  329.209960938 -83.4794921875 315.275390625 -100.712890625 300.126953125 -100.586914062 c 0
  297.495117188 -100.565429688 290.8671875 -98.7060546875 285.3984375 -96.4580078125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.suno tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.suno Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s u n o
 EndChar
@@ -9659,9 +9779,9 @@ StartChar: Tok.supa
 Encoding: 358 989541 359
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 328.847 120.288 344.091 99.7471
-VStem: 188.233 84.0684 379.838 68.9951
+Flags: W
+HStem: 328.847 120.288<458.757 547.055> 344.091 99.7471<111.383 197.696>
+VStem: 188.233 84.0684<158.833 309.968> 379.838 68.9951<155.045 297.403>
 LayerCount: 2
 Fore
 SplineSet
@@ -9699,7 +9819,8 @@ SplineSet
  447.2265625 180.14453125 444.423828125 167.59375 432.201171875 154.427734375 c 0
  422.948242188 144.4609375 410.424804688 142.19140625 397.375 148.118164062 c 0xb0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.supa tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.supa Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s u p a
 EndChar
@@ -9708,9 +9829,9 @@ StartChar: Tok.suwi
 Encoding: 359 989542 360
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 77.2773 129.787 410.967 110.896
-VStem: 285.673 122.756
+Flags: W
+HStem: 77.2773 129.787<306.41 385.134> 410.967 110.896<465.128 553.123>
+VStem: 285.673 122.756<100.792 187.291>
 LayerCount: 2
 Fore
 SplineSet
@@ -9755,7 +9876,8 @@ SplineSet
  366.715820312 79.70703125 359.606445312 76.15234375 343.234375 75.578125 c 0
  335.755859375 75.3154296875 325.857421875 76.0810546875 321.240234375 77.27734375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.suwi tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.suwi Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" s u w i
 EndChar
@@ -9764,8 +9886,8 @@ StartChar: Tok.tan
 Encoding: 360 989543 361
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 63.3672 125.661
+Flags: W
+HStem: 63.3672 125.661<238.168 321.903>
 LayerCount: 2
 Fore
 SplineSet
@@ -9807,7 +9929,8 @@ SplineSet
  136.833007812 46.7451171875 108.104492188 43.3515625 106.720703125 42.9853515625 c 0
  105.333007812 42.619140625 102.311523438 43.064453125 100.000976562 43.9765625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.tan tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.tan Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" t a n
 EndChar
@@ -9816,9 +9939,9 @@ StartChar: Tok.taso
 Encoding: 361 989544 362
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 288.188 88.9863
-VStem: 369.182 108.315 381.804 56.8682
+Flags: W
+HStem: 288.188 88.9863<232.355 347.34>
+VStem: 369.182 108.315<80.861 277.4 376.029 587.25> 381.804 56.8682<-6.56295 120.082>
 LayerCount: 2
 Fore
 SplineSet
@@ -9847,7 +9970,8 @@ SplineSet
  435.162109375 7.04296875 424.853515625 -4.0830078125 419.658203125 -6.69140625 c 0
  413.310546875 -9.876953125 405.965820312 -10.7822265625 399.963867188 -9.1171875 c 0xa0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.taso tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.taso Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" t a s o
 EndChar
@@ -9856,8 +9980,8 @@ StartChar: Tok.tawa
 Encoding: 362 989545 363
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 27.4443 78.3984
+Flags: W
+HStem: 27.4443 78.3984<229.577 276.73>
 LayerCount: 2
 Fore
 SplineSet
@@ -9903,7 +10027,8 @@ SplineSet
  269.215820312 35.1591796875 253.41796875 27.1845703125 231.020507812 27.4443359375 c 0
  221.9765625 27.5498046875 216.94140625 28.61328125 209.904296875 31.908203125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.tawa tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.tawa Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" t a w a
 EndChar
@@ -9967,7 +10092,8 @@ SplineSet
  146.8203125 80.966796875 137.739257812 76.1748046875 122.686523438 75.3369140625 c 0
  115.956054688 74.96484375 108.556640625 75.2861328125 106.24609375 76.0517578125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.telo tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.telo Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" t e l o
 EndChar
@@ -9976,9 +10102,9 @@ StartChar: Tok.tenpo
 Encoding: 364 989547 365
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 211.441 85.9551 513.118 117.674
-VStem: 37.6602 115.127 293.188 91.5537
+Flags: W
+HStem: 211.441 85.9551<386.986 550.608> 513.118 117.674<273.896 440.349>
+VStem: 37.6602 115.127<157.006 389.395> 293.188 91.5537<299.534 417.848>
 LayerCount: 2
 Fore
 SplineSet
@@ -10050,7 +10176,8 @@ SplineSet
  421.75390625 -26.12109375 409.401367188 -27.65234375 369.670898438 -29.4638671875 c 0
  326.786132812 -31.4228515625 320.674804688 -31.330078125 300.481445312 -28.4072265625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.tenpo tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.tenpo Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" t e n p o
 EndChar
@@ -10059,9 +10186,9 @@ StartChar: Tok.toki
 Encoding: 365 989548 366
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 338.999 88.7676
-VStem: 299.438 96.4893
+Flags: W
+HStem: 338.999 88.7676<257.824 422.023>
+VStem: 299.438 96.4893<524.155 614.953>
 LayerCount: 2
 Fore
 SplineSet
@@ -10129,7 +10256,8 @@ SplineSet
  409.263671875 -28.9931640625 394.399414062 -33.5390625 353.52734375 -40.3271484375 c 0
  314.227539062 -46.85546875 300.138671875 -46.7353515625 261.966796875 -39.5615234375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.toki tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.toki Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" t o k i
 EndChar
@@ -10138,9 +10266,9 @@ StartChar: Tok.tomo
 Encoding: 366 989549 367
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -16.6748 108.973
-VStem: 90.124 108.9 509.766 96.209
+Flags: W
+HStem: -16.6748 108.973<201.612 465.249>
+VStem: 90.124 108.9<105.35 338.892> 509.766 96.209<121.973 379.961>
 LayerCount: 2
 Fore
 SplineSet
@@ -10193,7 +10321,8 @@ SplineSet
  270.83203125 -15.8056640625 228.118164062 -16.4072265625 219.340820312 -16.6748046875 c 0
  210.559570312 -16.9404296875 199.22265625 -16.9443359375 194.139648438 -16.6748046875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.tomo tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.tomo Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" t o m o
 EndChar
@@ -10202,8 +10331,8 @@ StartChar: Tok.tu
 Encoding: 367 989550 368
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 193.315 122.257 374.539 100.055 437.823 75.4375
+Flags: W
+VStem: 193.315 122.257<104.111 499.834> 374.539 100.055<103.004 229.219> 437.823 75.4375<372.83 506.01>
 LayerCount: 2
 Fore
 SplineSet
@@ -10243,7 +10372,8 @@ SplineSet
  288.549804688 83.6865234375 271.915039062 62.0302734375 244.936523438 56.431640625 c 0
  234.4296875 54.25390625 230.584960938 54.3056640625 222.986328125 56.736328125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.tu tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.tu Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" t u
 EndChar
@@ -10252,9 +10382,9 @@ StartChar: Tok.unpa
 Encoding: 368 989551 369
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 269.868 67.8223
-VStem: 80.7959 70.7793 366.312 89.3213 379.174 76.46 543.22 75.5439
+Flags: W
+HStem: 269.868 67.8223<306.229 363.77>
+VStem: 80.7959 70.7793<465.702 558.179> 366.312 89.3213<264.46 341.341> 379.174 76.46<118.936 269.583> 543.22 75.5439<455.111 559.95>
 LayerCount: 2
 Fore
 SplineSet
@@ -10336,7 +10466,8 @@ SplineSet
  344.864257812 -27.6669921875 324.103515625 -35.4326171875 292.09765625 -35.3740234375 c 0
  278.302734375 -35.3369140625 274.868164062 -34.6865234375 262.59765625 -29.7099609375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.unpa tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.unpa Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" u n p a
 EndChar
@@ -10345,9 +10476,9 @@ StartChar: Tok.uta
 Encoding: 369 989552 370
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 86.4795 106.647 415.691 92.541
-VStem: 301.309 120.641
+Flags: W
+HStem: 86.4795 106.647<307.636 405.788> 415.691 92.541<213.164 546.155>
+VStem: 301.309 120.641<104.434 185.335>
 LayerCount: 2
 Fore
 SplineSet
@@ -10394,7 +10525,8 @@ SplineSet
  409.234375 107.739257812 396.345703125 98.1552734375 370.41015625 89.4189453125 c 0
  350.456054688 82.6953125 330.388671875 81.5302734375 319.806640625 86.4794921875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.uta tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.uta Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" u t a
 EndChar
@@ -10458,7 +10590,8 @@ SplineSet
  256.76171875 52.609375 247.239257812 41.2275390625 235.047851562 37.8408203125 c 0
  228.116210938 35.916015625 224.427734375 35.888671875 217.124023438 37.7099609375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.utala tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.utala Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" u t a l a
 EndChar
@@ -10467,8 +10600,8 @@ StartChar: Tok.walo
 Encoding: 371 989554 372
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 23.208 109.204
+Flags: W
+HStem: 23.208 109.204<197.898 499.173>
 LayerCount: 2
 Fore
 SplineSet
@@ -10536,7 +10669,8 @@ SplineSet
  199.004882812 15.626953125 138.202148438 11.994140625 128.98046875 12.4892578125 c 0
  126.208984375 12.6396484375 120.91796875 13.005859375 117.22265625 13.302734375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.walo tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.walo Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" w a l o
 EndChar
@@ -10545,8 +10679,8 @@ StartChar: Tok.wan
 Encoding: 372 989555 373
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 368.541 95.5801
+Flags: W
+VStem: 368.541 95.5801<62.4246 89.4008 126.204 339.823>
 LayerCount: 2
 Fore
 SplineSet
@@ -10575,7 +10709,8 @@ SplineSet
  458.35546875 57.5390625 443.876953125 40.2890625 428.25 36.939453125 c 0
  416.809570312 34.484375 408.569335938 34.662109375 400.499023438 37.541015625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.wan tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.wan Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" w a n
 EndChar
@@ -10584,9 +10719,9 @@ StartChar: Tok.waso
 Encoding: 373 989556 374
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 392.463 121.195<178 178> 407.93 114.522
-VStem: 277.022 92.5107
+Flags: W
+HStem: 392.463 121.195<152.716 217.944> 407.93 114.522<271.518 356.534>
+VStem: 277.022 92.5107<-32.1337 197.9>
 LayerCount: 2
 Fore
 SplineSet
@@ -10638,7 +10773,8 @@ SplineSet
  366.696289062 -10.990234375 362.974609375 -22.8125 347.0703125 -32.5986328125 c 0
  332.236328125 -41.724609375 322.618164062 -43.970703125 312.022460938 -40.77734375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.waso tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.waso Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" w a s o
 EndChar
@@ -10647,20 +10783,20 @@ StartChar: Tok.wawa
 Encoding: 374 989557 375
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 79.1816 52.0625 79.1816 75.585 386.621 96.9404 557.447 69.5762
+Flags: W
+VStem: 79.1816 75.585<264.486 519.743> 79.1816 52.0625<410.457 543.95> 386.621 96.9404<195.978 294.344> 557.447 69.5762<407.822 525.732>
 LayerCount: 2
 Fore
 SplineSet
-132.112304688 225.104492188 m 0x70
+132.112304688 225.104492188 m 0xb0
  127.494140625 226.24609375 121.291015625 228.454101562 118.327148438 230.009765625 c 0
  105.541015625 236.71875 94.91796875 258.251953125 85.0361328125 297.50390625 c 0
  78.8193359375 322.19140625 76.81640625 336.427734375 73.380859375 380.32421875 c 0
  71.056640625 410.002929688 71.115234375 412.532226562 75.0625 453.404296875 c 0
- 77.3115234375 476.69140625 79.1640625 500.658203125 79.181640625 506.663085938 c 0x70
+ 77.3115234375 476.69140625 79.1640625 500.658203125 79.181640625 506.663085938 c 0xb0
  79.2294921875 523.140625 81.3759765625 528.6640625 90.8369140625 536.642578125 c 0
  101.517578125 545.65234375 106.655273438 547.607421875 113.596679688 545.31640625 c 0
- 120.965820312 542.8828125 127.42578125 535.674804688 131.244140625 525.625976562 c 0xb0
+ 120.965820312 542.8828125 127.42578125 535.674804688 131.244140625 525.625976562 c 0x70
  133.010742188 520.98046875 137.4921875 499.126953125 141.204101562 477.063476562 c 0
  144.916015625 454.997070312 149.478515625 429.76171875 151.344726562 420.984375 c 0
  153.21484375 412.20703125 154.752929688 399.5 154.766601562 392.74609375 c 0
@@ -10668,7 +10804,7 @@ SplineSet
  163.16796875 330.265625 165.0546875 317.034179688 165.659179688 310.10546875 c 0
  166.260742188 303.173828125 168.69140625 287.783203125 171.056640625 275.8984375 c 0
  177.263671875 244.73046875 174.744140625 232.2578125 160.983398438 226.009765625 c 0
- 152.982421875 222.376953125 144.259765625 222.103515625 132.112304688 225.104492188 c 0x70
+ 152.982421875 222.376953125 144.259765625 222.103515625 132.112304688 225.104492188 c 0xb0
 523.862304688 196.516601562 m 0
  515.116210938 199.7734375 511.721679688 203.19921875 506.341796875 214.19140625 c 0
  502.404296875 222.233398438 501.65625 226.140625 501.1328125 241.346679688 c 0
@@ -10706,7 +10842,8 @@ SplineSet
  438.861328125 115.4765625 368.984375 66.63671875 328.826171875 56.4375 c 0
  313.435546875 52.53125 285.315429688 52.048828125 271.278320312 55.453125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.wawa tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.wawa Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" w a w a
 EndChar
@@ -10715,8 +10852,8 @@ StartChar: Tok.weka
 Encoding: 375 989558 376
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 418.05 100.099
+Flags: W
+VStem: 418.05 100.099<441.253 495.584>
 LayerCount: 2
 Fore
 SplineSet
@@ -10779,7 +10916,8 @@ SplineSet
  182.083007812 -44.8642578125 160.57421875 -62.1494140625 147.41796875 -68.318359375 c 0
  136.395507812 -73.4892578125 118.6796875 -75.755859375 109.041015625 -73.2265625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.weka tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.weka Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" w e k a
 EndChar
@@ -10788,8 +10926,8 @@ StartChar: Tok.wile
 Encoding: 376 989559 377
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 129.438 80.2061
+Flags: W
+VStem: 129.438 80.2061<163.606 333.142>
 LayerCount: 2
 Fore
 SplineSet
@@ -10840,7 +10978,8 @@ SplineSet
  317.517578125 50.59765625 296.637695312 33.75390625 284.404296875 28.1318359375 c 0
  273.087890625 22.9296875 248.888671875 21.544921875 232.909179688 25.181640625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.wile tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.wile Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" w i l e
 EndChar
@@ -10849,9 +10988,9 @@ StartChar: Tok.namako
 Encoding: 377 989560 378
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 229.282 101.688 254.161 75.6465 275.414 86.502
-VStem: 313.715 71.6953
+Flags: W
+HStem: 229.282 101.688<114.943 208.536> 254.161 75.6465<218.119 267.714> 275.414 86.502<460.612 613.573>
+VStem: 313.715 71.6953<-21.0403 199.027 421.279 612.676>
 LayerCount: 2
 Fore
 SplineSet
@@ -10900,7 +11039,8 @@ SplineSet
  384.893554688 6.8232421875 383.704101562 -4.6376953125 375.915039062 -21.8427734375 c 0
  369.010742188 -37.0869140625 362.44140625 -40.3037109375 348.338867188 -35.3369140625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.namako tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.namako Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" n a m a k o
 EndChar
@@ -10909,8 +11049,8 @@ StartChar: Tok.kin
 Encoding: 378 989561 379
 Width: 700
 GlyphClass: 3
-Flags: MW
-VStem: 306.279 89.2568 313.84 67.1465 339.068 40.1846 340.723 76.4941
+Flags: W
+VStem: 306.279 89.2568<226.507 516.788> 313.84 67.1465<-82.9999 -54.3784> 339.068 40.1846<60.8158 95.8571> 340.723 76.4941<484.328 695.872>
 LayerCount: 2
 Fore
 SplineSet
@@ -10974,7 +11114,8 @@ SplineSet
  370.465820312 -103.473632812 361.025390625 -107.896484375 353.905273438 -107.797851562 c 0
  350.8125 -107.756835938 344.553710938 -106.266601562 340.000976562 -104.485351562 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.kin tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.kin Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k i n
 EndChar
@@ -10983,8 +11124,8 @@ StartChar: Tok.oko
 Encoding: 379 989562 380
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 64.4893 58.5811
+Flags: W
+HStem: 64.4893 58.5811<545.03 573.674>
 LayerCount: 2
 Fore
 SplineSet
@@ -11029,7 +11170,8 @@ SplineSet
  581.188476562 110.580078125 582.022460938 94.10546875 574.013671875 80.44140625 c 0
  566.952148438 68.388671875 547.845703125 61.1533203125 531.897460938 64.4892578125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.oko tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.oko Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" o k o
 EndChar
@@ -11038,9 +11180,9 @@ StartChar: Tok.tonsi
 Encoding: 380 989566 381
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: 444.621 99.7461
-VStem: 141.711 72.5225 283.338 85.6982 440.355 90.7852
+Flags: W
+HStem: 444.621 99.7461<284.429 415.133>
+VStem: 141.711 72.5225<232.446 379.197> 283.338 85.6982<-58.8986 118.651> 440.355 90.7852<276.692 399.06>
 LayerCount: 2
 Fore
 SplineSet
@@ -11099,7 +11241,8 @@ SplineSet
  366.647460938 -44.18359375 360.525390625 -57.013671875 352.77734375 -62.923828125 c 0
  343.96875 -69.640625 329.708984375 -70.3984375 316.522460938 -64.8447265625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.tonsi tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.tonsi Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" t o n s i
 EndChar
@@ -11108,8 +11251,8 @@ StartChar: Tok.kijetesantakalu
 Encoding: 381 989568 382
 Width: 700
 GlyphClass: 3
-Flags: MW
-HStem: -72.7168 60.3516 -57.2129 105.038 291.844 129.713 305.745 121.762 530.918 141.824
+Flags: W
+HStem: -72.7168 60.3516<64.8843 110.521> -57.2129 105.038<249.658 342.378> 291.844 129.713<424.803 493.66> 305.745 121.762<551.554 609.126> 530.918 141.824<525.9 613.995>
 LayerCount: 2
 Fore
 SplineSet
@@ -11227,7 +11370,8 @@ SplineSet
  174.173828125 -72.271484375 139.638671875 -72.880859375 70.7021484375 -72.716796875 c 0
  18.8544921875 -72.58984375 -26.2109375 -72.224609375 -29.4443359375 -71.8994140625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" Tok.kijetesantakalu tok.ext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" Tok.kijetesantakalu Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" k i j e t e s a n t a k a l u
 EndChar
@@ -11236,9 +11380,9 @@ StartChar: Tok.cartopen
 Encoding: 382 989584 383
 Width: 190
 GlyphClass: 3
-Flags: MW
-HStem: -285 144.945 774 109.559
-VStem: -25.584 119.759 -19.0557 120.647
+Flags: W
+HStem: -285 144.945<146.082 297.214> 774 109.559<121.37 251.277>
+VStem: -25.584 119.759<87.5215 750.681> -19.0557 120.647<-80.5043 355.039 382.281 689.985>
 LayerCount: 2
 Fore
 SplineSet
@@ -11287,67 +11431,66 @@ SplineSet
  189.90625 -285.310546875 144.17578125 -284.560546875 122 -285 c 0
  106 -285.317382812 95.3232421875 -285.313476562 80.84765625 -281.446289062 c 0xd0
 EndSplineSet
-Validated: 524321
-Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" bracketleft
+Validated: 33
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" bracketleft space
+Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" bracketleft
 EndChar
 
 StartChar: Tok.cartend
 Encoding: 383 989585 384
 Width: 190
 GlyphClass: 3
-Flags: MW
-HStem: -281.446 137.252 774.635 108.924
-VStem: 68.4082 120.647 75.8252 119.759
+Flags: W
+HStem: -281.446 137.252<-127.219 20.235> 772.964 110.595<-81.075 48.519>
+VStem: 68.4082 120.647<-80.5043 355.039 382.281 689.985 690.399 763.621> 75.8252 119.759<87.5215 755.818>
 LayerCount: 2
 Fore
 SplineSet
 89.15234375 -281.446289062 m 0xe0
- 109.11328125 -276.114257812 122.662109375 -271.274414062 129.576171875 -266.998046875 c 0
- 139.68359375 -260.75390625 163.619140625 -233.734375 168.814453125 -222.705078125 c 0
- 174.92578125 -209.737304688 178.883789062 -192.073242188 180.086914062 -172.41015625 c 0
- 181.166992188 -154.7734375 178.740234375 -102.08203125 174.81640625 -57.900390625 c 2
+ 74.6767578125 -285.313476562 73.60546875 -285.765625 35 -285 c 0
+ 12.82421875 -284.560546875 -25.90625 -285.310546875 -43 -285 c 0
+ -77.5283203125 -284.373046875 -114.7265625 -276.521484375 -127.8515625 -270.24609375 c 0
+ -137.063476562 -265.841796875 -147.788085938 -254.00390625 -153.311523438 -242.15625 c 0
+ -162.147460938 -223.193359375 -158.411132812 -204.446289062 -140.323242188 -176.990234375 c 0
+ -127.072265625 -156.875 -119.122070312 -149.009765625 -107.172851562 -144.194335938 c 0
+ -97.7392578125 -140.38671875 -95.4794921875 -140.215820312 -53.353515625 -140.0546875 c 0
+ -0.8974609375 -139.857421875 2.3388671875 -139.228515625 15.98046875 -126.598632812 c 0
+ 26.0732421875 -117.25390625 47.33984375 -90.34765625 52.1083984375 -80.88671875 c 0
+ 56.158203125 -72.8544921875 58.8447265625 -56.8857421875 64.4609375 -7.5029296875 c 0
+ 68.9658203125 32.1181640625 69.3310546875 39.3779296875 68.408203125 70.6181640625 c 0xe0
+ 65.8173828125 158.033203125 69.1162109375 291.306640625 75.8251953125 370.497070312 c 0
+ 81.4375 436.716796875 82.025390625 447.330078125 81.875 479.697265625 c 0
+ 81.7109375 514.584960938 80.12890625 547.025390625 75.8291015625 603.60546875 c 0
+ 72.728515625 644.385742188 71.953125 650.77734375 67.9609375 668.341796875 c 0
+ 66.2177734375 676.001953125 64.7919921875 685.8359375 64.7919921875 690.193359375 c 0
+ 64.7919921875 694.5546875 64.033203125 700.76171875 63.103515625 703.98828125 c 0
+ 62.173828125 707.21875 60.615234375 716.662109375 59.6376953125 724.978515625 c 0
+ 57.033203125 747.13671875 55.91796875 755.916015625 49 764 c 0
+ 38.6474609375 776.096679688 34.3359375 772.916015625 4 772.963867188 c 0
+ -19 773 -50.9130859375 772.119140625 -59.9775390625 774.634765625 c 0
+ -67.6982421875 776.77734375 -77.375 786.122070312 -81.47265625 795.388671875 c 0
+ -86.0498046875 805.73828125 -90.2978515625 833.638671875 -89.3994140625 847.440429688 c 0
+ -88.1826171875 866.03125 -80.384765625 882.811523438 -65.8701171875 883.55859375 c 0
+ 1 887 76.5810546875 882.92578125 95.7177734375 877.8671875 c 0
+ 120.142578125 871.41015625 146.5703125 851.169921875 156.048828125 831.66015625 c 0
+ 158.516601562 826.577148438 164.651367188 805.41015625 169.682617188 784.618164062 c 0
+ 177.0078125 754.345703125 179.51953125 740.126953125 182.288085938 713.216796875 c 0
+ 184.188476562 694.739257812 186.899414062 675.458984375 188.314453125 670.37890625 c 0
+ 189.729492188 665.296875 191.653320312 649.041015625 192.586914062 634.2578125 c 0
+ 193.5234375 619.475585938 195.016601562 603.75 195.90234375 599.31640625 c 0
+ 198.065429688 588.498046875 197.935546875 568.892578125 195.583984375 550.5390625 c 0xd0
+ 194.0703125 538.743164062 194.12109375 532.522460938 195.809570312 521.865234375 c 0
+ 197.78515625 509.41015625 199.439453125 439.170898438 199.887695312 348.66015625 c 0
+ 200.038085938 318.154296875 197.754882812 278.373046875 193.280273438 233.576171875 c 0
+ 191.944335938 220.181640625 190.040039062 182.37890625 189.055664062 149.576171875 c 0
+ 187.405273438 94.7626953125 186.649414062 85.181640625 179.697265625 31.13671875 c 2
  172.133789062 -27.662109375 l 1
- 179.697265625 31.13671875 l 2
- 186.649414062 85.181640625 187.405273438 94.7626953125 189.055664062 149.576171875 c 0xe0
- 190.040039062 182.37890625 191.944335938 220.181640625 193.280273438 233.576171875 c 0
- 197.754882812 278.373046875 200.038085938 318.154296875 199.887695312 348.66015625 c 0
- 199.439453125 439.170898438 197.78515625 509.41015625 195.809570312 521.865234375 c 0
- 194.12109375 532.522460938 194.0703125 538.743164062 195.583984375 550.5390625 c 0
- 197.935546875 568.892578125 198.065429688 588.498046875 195.90234375 599.31640625 c 0
- 195.016601562 603.75 193.5234375 619.475585938 192.586914062 634.2578125 c 0
- 191.653320312 649.041015625 189.729492188 665.296875 188.314453125 670.37890625 c 0
- 186.899414062 675.458984375 184.188476562 694.739257812 182.288085938 713.216796875 c 0
- 179.51953125 740.126953125 177.0078125 754.345703125 169.682617188 784.618164062 c 0
- 164.651367188 805.41015625 158.516601562 826.577148438 156.048828125 831.66015625 c 0
- 146.5703125 851.169921875 120.142578125 871.41015625 95.7177734375 877.8671875 c 0
- 76.5810546875 882.92578125 1 887 -65.8701171875 883.55859375 c 0
- -80.384765625 882.811523438 -88.1826171875 866.03125 -89.3994140625 847.440429688 c 0
- -90.2978515625 833.638671875 -86.0498046875 805.73828125 -81.47265625 795.388671875 c 0
- -77.375 786.122070312 -67.6982421875 776.77734375 -59.9775390625 774.634765625 c 0
- -50.9130859375 772.119140625 -19 773 4 772.963867188 c 0
- 34.3359375 772.916015625 38.6474609375 776.096679688 49 764 c 0
- 55.91796875 755.916015625 57.033203125 747.13671875 59.6376953125 724.978515625 c 0
- 60.615234375 716.662109375 62.173828125 707.21875 63.103515625 703.98828125 c 0
- 64.033203125 700.76171875 64.7919921875 694.5546875 64.7919921875 690.193359375 c 0
- 64.7919921875 685.8359375 66.2177734375 676.001953125 67.9609375 668.341796875 c 0
- 71.953125 650.77734375 72.728515625 644.385742188 75.8291015625 603.60546875 c 0
- 80.12890625 547.025390625 81.7109375 514.584960938 81.875 479.697265625 c 0
- 82.025390625 447.330078125 81.4375 436.716796875 75.8251953125 370.497070312 c 0xd0
- 69.1162109375 291.306640625 65.8173828125 158.033203125 68.408203125 70.6181640625 c 0
- 69.3310546875 39.3779296875 68.9658203125 32.1181640625 64.4609375 -7.5029296875 c 0
- 58.8447265625 -56.8857421875 56.158203125 -72.8544921875 52.1083984375 -80.88671875 c 0
- 47.33984375 -90.34765625 26.0732421875 -117.25390625 15.98046875 -126.598632812 c 0
- 2.3388671875 -139.228515625 -0.8974609375 -139.857421875 -53.353515625 -140.0546875 c 0
- -95.4794921875 -140.215820312 -97.7392578125 -140.38671875 -107.172851562 -144.194335938 c 0
- -119.122070312 -149.009765625 -127.072265625 -156.875 -140.323242188 -176.990234375 c 0
- -158.411132812 -204.446289062 -162.147460938 -223.193359375 -153.311523438 -242.15625 c 0
- -147.788085938 -254.00390625 -137.063476562 -265.841796875 -127.8515625 -270.24609375 c 0
- -114.7265625 -276.521484375 -77.5283203125 -284.373046875 -43 -285 c 0
- -25.90625 -285.310546875 12.82421875 -284.560546875 35 -285 c 0
- 73.60546875 -285.765625 74.6767578125 -285.313476562 89.15234375 -281.446289062 c 0xe0
+ 174.81640625 -57.900390625 l 2
+ 178.740234375 -102.08203125 181.166992188 -154.7734375 180.086914062 -172.41015625 c 0
+ 178.883789062 -192.073242188 174.92578125 -209.737304688 168.814453125 -222.705078125 c 0
+ 163.619140625 -233.734375 139.68359375 -260.75390625 129.576171875 -266.998046875 c 0
+ 122.662109375 -271.274414062 109.11328125 -276.114257812 89.15234375 -281.446289062 c 0xe0
 EndSplineSet
-Validated: 524329
 Substitution2: "'aalt' Zugriff auf alle Alternativen in Lateinisch Nachschlagetabelle 9-1" cart.empty
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" bracketright
 EndChar
@@ -11357,26 +11500,26 @@ Encoding: 384 989586 385
 Width: 0
 GlyphClass: 3
 Flags: W
+HStem: -285.044 144.989<-708.354 4> 772.964 111.794<-709 4>
 LayerCount: 2
 Fore
 SplineSet
 -708.353515625 -140.0546875 m 1
- -749 -212 l 1
- -709 -285.043945312 l 1
- 4 -285.043945312 l 1
- 49.31640625 -214 l 1
  4.646484375 -140.0546875 l 1
+ 49.31640625 -214 l 1
+ 4 -285.043945312 l 1
+ -709 -285.043945312 l 1
+ -749 -212 l 1
  -708.353515625 -140.0546875 l 1
 -709 772.963867188 m 1
- 4 772.963867188 l 1
- 34 829 l 1
- 4 884.7578125 l 1
- -709 884.7578125 l 1
  -738 827 l 1
+ -709 884.7578125 l 1
+ 4 884.7578125 l 1
+ 34 829 l 1
+ 4 772.963867188 l 1
  -709 772.963867188 l 1
 -709 772.963867188 m 1024
 EndSplineSet
-Validated: 524297
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" underscore
 EndChar
 
@@ -11394,7 +11537,7 @@ StartChar: a.cart
 Encoding: 387 -1 387
 Width: 700
 Flags: W
-VStem: 116.434 63.0957 277.078 142.591
+VStem: 116.434 63.0957<623.802 666.91> 277.078 142.591<289.433 359.988>
 LayerCount: 2
 Fore
 SplineSet
@@ -11450,7 +11593,7 @@ SplineSet
  575.063476562 -46.431640625 572.9609375 -57.30078125 565.694335938 -66.119140625 c 0
  557.994140625 -75.4609375 548.540039062 -78.6767578125 536.634765625 -76.0107421875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" a.cart Tok.cartext
 EndChar
@@ -11459,8 +11602,8 @@ StartChar: e.cart
 Encoding: 388 -1 388
 Width: 700
 Flags: W
-HStem: 269.31 84.4277 309.458 99.3975
-VStem: 264.443 121.994 289.736 96.041
+HStem: 269.31 84.4277<410.844 584.691> 309.458 99.3975<113.587 267.055>
+VStem: 264.443 121.994<40.7201 181.44> 289.736 96.041<399.08 558.223>
 LayerCount: 2
 Fore
 SplineSet
@@ -11497,7 +11640,7 @@ SplineSet
  384.68359375 85.84375 380.486328125 57.1708984375 374.327148438 40.48046875 c 0
  366.069335938 18.1064453125 343.88671875 8.0166015625 319.616210938 15.6044921875 c 0xa0
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.e Tok.en Tok.esun
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" e.cart Tok.cartext
 EndChar
@@ -11506,8 +11649,8 @@ StartChar: i.cart
 Encoding: 389 -1 389
 Width: 700
 Flags: W
-HStem: 6.60938 97.5938
-VStem: 500.086 105.868
+HStem: 6.60938 97.5938<246.111 400.585>
+VStem: 500.086 105.868<233.654 417.046>
 LayerCount: 2
 Fore
 SplineSet
@@ -11551,7 +11694,7 @@ SplineSet
  474.150390625 49.6279296875 464.0703125 42.81640625 430.543945312 26.884765625 c 0
  388.581054688 6.94140625 368.48046875 3.587890625 309.028320312 6.609375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.ijo Tok.ike Tok.ilo Tok.insa
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" i.cart Tok.cartext
 EndChar
@@ -11560,7 +11703,7 @@ StartChar: j.cart
 Encoding: 390 -1 390
 Width: 700
 Flags: W
-VStem: 134.126 90.6309 428.929 118.546
+VStem: 134.126 90.6309<129.697 265.149> 428.929 118.546<126.118 186.192>
 LayerCount: 2
 Fore
 SplineSet
@@ -11615,7 +11758,7 @@ SplineSet
  373.899414062 5.7275390625 353.689453125 1.294921875 295.689453125 0.37890625 c 0
  274.440429688 0.04296875 254.028320312 0.42578125 250.330078125 1.2265625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.jaki Tok.jan Tok.jelo Tok.jo
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" j.cart Tok.cartext
 EndChar
@@ -11624,8 +11767,8 @@ StartChar: k.cart
 Encoding: 391 -1 391
 Width: 700
 Flags: W
-HStem: -15.9375 77.9473 21.0928 98.1123 503.416 75.708 532.076 86.3711
-VStem: 440.084 61.6709
+HStem: -15.9375 77.9473<354.447 432.552> 21.0928 98.1123<136.701 241.293> 503.416 75.708<511.823 581.157> 532.076 86.3711<244.055 308.617>
+VStem: 440.084 61.6709<393.871 494.542>
 LayerCount: 2
 Fore
 SplineSet
@@ -11683,7 +11826,7 @@ SplineSet
  511.82421875 15.421875 508.190429688 11.484375 493.934570312 1.8427734375 c 0
  468.6484375 -15.267578125 419.525390625 -23.5869140625 388.934570312 -15.9375 c 0xa8
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.kala Tok.kijetesantakalu Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.kin
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" k.cart Tok.cartext
 EndChar
@@ -11692,8 +11835,8 @@ StartChar: l.cart
 Encoding: 392 -1 392
 Width: 700
 Flags: W
-HStem: -14.1064 119.379
-VStem: 132.627 84.5332
+HStem: -14.1064 119.379<292.651 402.556>
+VStem: 132.627 84.5332<189.46 463.349>
 LayerCount: 2
 Fore
 SplineSet
@@ -11736,7 +11879,7 @@ SplineSet
  397.850585938 5.30078125 369.802734375 -5.8857421875 355.669921875 -10.5380859375 c 0
  343.529296875 -14.5341796875 313.553710938 -16.587890625 303.627929688 -14.1064453125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" l.cart Tok.cartext
 EndChar
@@ -11745,7 +11888,7 @@ StartChar: m.cart
 Encoding: 393 -1 393
 Width: 700
 Flags: W
-VStem: 440.675 61.54
+VStem: 440.675 61.54<396.603 490.274>
 LayerCount: 2
 Fore
 SplineSet
@@ -11788,7 +11931,7 @@ SplineSet
  293.41796875 35.41796875 288.083007812 32.22265625 274.63671875 31.6923828125 c 0
  268.416015625 31.4462890625 259.580078125 32.3349609375 254.94921875 33.6640625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.meli Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" m.cart Tok.cartext
 EndChar
@@ -11797,8 +11940,8 @@ StartChar: n.cart
 Encoding: 394 -1 394
 Width: 700
 Flags: W
-HStem: 147.464 85.9033 148.646 120.005 366.572 74.249
-VStem: 222.94 80.5381 228.443 84.6699 241.808 79.1572 419.863 88.2656 430.521 75.9541 448.28 72.502
+HStem: 147.464 85.9033<527.578 585.115> 148.646 120.005<119.243 227.129> 366.572 74.249<536.198 623.231>
+VStem: 222.94 80.5381<44.1744 139.474> 228.443 84.6699<454.901 588.67> 241.808 79.1572<263.275 366.481> 419.863 88.2656<454.257 578.933> 430.521 75.9541<496.271 583.913> 448.28 72.502<246.272 358.042>
 LayerCount: 2
 Fore
 SplineSet
@@ -11874,7 +12017,7 @@ SplineSet
  512.193359375 76.482421875 505.473632812 42.0537109375 498.15234375 27.705078125 c 0
  488.776367188 9.3232421875 457.369140625 -1.89453125 439.684570312 6.82421875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.namako Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" n.cart Tok.cartext
 EndChar
@@ -11883,8 +12026,8 @@ StartChar: o.cart
 Encoding: 395 -1 395
 Width: 700
 Flags: W
-HStem: 27.7461 58.8574
-VStem: 84.9082 118.487 107.58 111.815 122.701 96.6943
+HStem: 27.7461 58.8574<226.628 407.465>
+VStem: 84.9082 118.487<91.9228 180.15> 107.58 111.815<332.841 575.935> 122.701 96.6943<332.841 575.935>
 LayerCount: 2
 Fore
 SplineSet
@@ -11953,7 +12096,7 @@ SplineSet
  179.86328125 1.732421875 164.366210938 0.62109375 158.822265625 0.201171875 c 0
  153.278320312 -0.2158203125 144.961914062 0.396484375 140.340820312 1.564453125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.o Tok.olin Tok.ona Tok.open Tok.oko
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" o.cart Tok.cartext
 EndChar
@@ -11962,8 +12105,8 @@ StartChar: p.cart
 Encoding: 396 -1 396
 Width: 700
 Flags: W
-HStem: -34.3584 107.636 517.132 105.438 526.596 118.628
-VStem: 309.228 72.792
+HStem: -34.3584 107.636<182.568 287.323 389.005 479.948> 517.132 105.438<423.101 524.067> 526.596 118.628<230.982 302.646>
+VStem: 309.228 72.792<100.963 384.02>
 LayerCount: 2
 Fore
 SplineSet
@@ -12007,7 +12150,7 @@ SplineSet
  507.907226562 -23.8544921875 492.772460938 -34.8505859375 450.362304688 -40.9716796875 c 0
  431.59765625 -43.6787109375 373.150390625 -46.6220703125 368.830078125 -45.0771484375 c 0xd0
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" p.cart Tok.cartext
 EndChar
@@ -12081,7 +12224,7 @@ SplineSet
  392.228515625 -119.3125 378.764648438 -131.702148438 369.451171875 -135.595703125 c 0
  362.16015625 -138.640625 349.848632812 -138.72265625 340.4765625 -135.787109375 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" s.cart Tok.cartext
 EndChar
@@ -12090,7 +12233,7 @@ StartChar: t.cart
 Encoding: 398 -1 398
 Width: 700
 Flags: W
-VStem: 193.315 122.257 374.539 100.055 437.823 75.4375
+VStem: 193.315 122.257<104.111 499.834> 374.539 100.055<103.004 229.219> 437.823 75.4375<372.83 506.01>
 LayerCount: 2
 Fore
 SplineSet
@@ -12130,7 +12273,7 @@ SplineSet
  288.549804688 83.6865234375 271.915039062 62.0302734375 244.936523438 56.431640625 c 0
  234.4296875 54.25390625 230.584960938 54.3056640625 222.986328125 56.736328125 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.tonsi
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" t.cart Tok.cartext
 EndChar
@@ -12139,8 +12282,8 @@ StartChar: u.cart
 Encoding: 399 -1 399
 Width: 700
 Flags: W
-HStem: 86.4795 106.647 415.691 92.541
-VStem: 301.309 120.641
+HStem: 86.4795 106.647<307.636 405.788> 415.691 92.541<213.164 546.155>
+VStem: 301.309 120.641<104.434 185.335>
 LayerCount: 2
 Fore
 SplineSet
@@ -12187,7 +12330,7 @@ SplineSet
  409.234375 107.739257812 396.345703125 98.1552734375 370.41015625 89.4189453125 c 0
  350.456054688 82.6953125 330.388671875 81.5302734375 319.806640625 86.4794921875 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.unpa Tok.uta Tok.utala
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" u.cart Tok.cartext
 EndChar
@@ -12196,7 +12339,7 @@ StartChar: w.cart
 Encoding: 400 -1 400
 Width: 700
 Flags: W
-VStem: 368.541 95.5801
+VStem: 368.541 95.5801<62.4246 89.4008 126.204 339.823>
 LayerCount: 2
 Fore
 SplineSet
@@ -12225,7 +12368,7 @@ SplineSet
  458.35546875 57.5390625 443.876953125 40.2890625 428.25 36.939453125 c 0
  416.809570312 34.484375 408.569335938 34.662109375 400.499023438 37.541015625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 AlternateSubs2: "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1" Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" w.cart Tok.cartext
 EndChar
@@ -12238,6 +12381,538 @@ LayerCount: 2
 Fore
 Validated: 1
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" no.cart Tok.cartext
+EndChar
+
+StartChar: tok.piext
+Encoding: 402 989588 402
+Width: 0
+Flags: W
+HStem: -285.044 144.989<-708.354 4>
+LayerCount: 2
+Fore
+SplineSet
+-708.353515625 -140.0546875 m 1
+ 4.646484375 -140.0546875 l 1
+ 4.646484375 -140.0546875 49.31640625 -146 49.31640625 -214 c 4
+ 49.31640625 -280 4 -285.043945312 4 -285.043945312 c 1
+ -709 -285.043945312 l 1
+ -749 -212 l 1
+ -708.353515625 -140.0546875 l 1
+EndSplineSet
+EndChar
+
+StartChar: tok.ext
+Encoding: 403 989593 403
+Width: 0
+Flags: W
+HStem: -285.044 144.989<-708.354 4>
+LayerCount: 2
+Fore
+SplineSet
+-708.353515625 -140.0546875 m 1
+ 4.646484375 -140.0546875 l 1
+ 4.646484375 -140.0546875 49.31640625 -146 49.31640625 -214 c 4
+ 49.31640625 -280 4 -285.043945312 4 -285.043945312 c 1
+ -709 -285.043945312 l 1
+ -749 -212 l 1
+ -708.353515625 -140.0546875 l 1
+EndSplineSet
+Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" tok.piext
+Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" underscore underscore
+EndChar
+
+StartChar: tok.longpi
+Encoding: 404 989587 404
+Width: 700
+Flags: W
+HStem: -284.04 144.04<435.34 704.646>
+VStem: 284.367 119.923<-130.375 410.503> 284.367 119.923<47.4685 429.605>
+LayerCount: 2
+Fore
+SplineSet
+305 -279 m 3xc0
+ 292 -279 276.965963932 -259 276.73828125 -245.62109375 c 0
+ 276.523479975 -232.999114327 277.021484375 -213.0078125 277.021484375 -213.0078125 c 2
+ 277.186523438 -195.063476562 278.004882812 -171.461914062 278.853515625 -160.540039062 c 0
+ 279.69921875 -149.623046875 281.03515625 -124.743164062 281.814453125 -105.2421875 c 0
+ 282.603515625 -85.748046875 283.801757812 -62.4580078125 284.4921875 -53.4853515625 c 0
+ 285.193359375 -44.5234375 285.81640625 -25.0595703125 285.887695312 -10.2451171875 c 0
+ 285.954101562 4.572265625 286.627929688 29.8212890625 287.375 45.8642578125 c 0
+ 288.126953125 61.8984375 288.828125 124.427734375 288.93359375 184.8125 c 0
+ 289.12109375 289.39453125 288.984375 295.649414062 286.12890625 316.583984375 c 0
+ 283.022460938 339.290039062 282.086914062 386.505859375 284.3671875 404.807617188 c 0
+ 286.879882812 424.856445312 309.01171875 436.108398438 349.7578125 438.044921875 c 0
+ 364.135742188 438.727539062 367.01171875 438.465820312 374.053710938 435.795898438 c 0
+ 384.475585938 431.849609375 395.463867188 421.038085938 399.204101562 411.041992188 c 0
+ 403.510742188 399.51953125 404.114257812 390.294921875 404.290039062 332.177734375 c 0
+ 404.475585938 276.361328125 407.017578125 204.276367188 408.90625 201.276367188 c 0
+ 409.491210938 200.359375 410.029296875 150.477539062 410.107421875 90.4326171875 c 0
+ 410.251953125 -22.966796875 411.255859375 -50.0361328125 416.408203125 -79.0068359375 c 0
+ 417.861328125 -87.201171875 420.3828125 -101.55859375 421.999023438 -110.919921875 c 0
+ 426.071289062 -134.375976562 428.109375 -139.3828125 434.946289062 -142.881835938 c 0
+ 443.293945312 -147.13671875 454.467773438 -147.663085938 478.080078125 -144.926757812 c 0
+ 493.2265625 -143.172851562 512.826171875 -142.364257812 546.140625 -142.110351562 c 0
+ 571.877929688 -141.915039062 598.898411066 -140.371858492 606.302734375 -140.143554688 c 0
+ 615.547195792 -139.858512337 633.999999364 -140.090389406 647 -140 c 0
+ 673.59132957 -139.815109664 677.996484375 -140.0546875 704.646484375 -140.0546875 c 0
+ 704.646484375 -140.0546875 749.31640625 -146 749.31640625 -214 c 0
+ 749.31640625 -280 709 -284.043945312 709 -284.043945312 c 0
+ 684 -284.043945312 673.49 -284.04 646 -284.04 c 4
+ 636 -284.04 578.433603124 -283.379789154 560.31640625 -286.259765625 c 0
+ 548.88966309 -288.076202885 523.240234375 -289.846679688 478.080078125 -290.56640625 c 0
+ 445.681640625 -291.083984375 428.907226562 -290.733398438 414.276367188 -289.234375 c 2
+ 403.35546875 -288.123046875 384.2734375 -286.18359375 371.87109375 -284.927734375 c 0
+ 347.012955963 -282.410603257 318.256325453 -279 305 -279 c 3xc0
+EndSplineSet
+LCarets2: 2 0 0
+Ligature2: "'liga' ASCII conversion-1" Tok.pi tok.longstart
+Ligature2: "'liga' ASCII conversion-1" p i parenleft
+EndChar
+
+StartChar: tok.dot
+Encoding: 405 989596 405
+Width: 700
+VWidth: 1322
+Flags: W
+HStem: 221.837 147.229<293.515 399.761>
+VStem: 289.662 154.396<275.831 362.193>
+LayerCount: 2
+Fore
+SplineSet
+326.37109375 225.920898438 m 0
+ 300.739257812 235.053710938 289.860351562 243.541015625 280.344726562 261.831054688 c 2
+ 273.194335938 275.57421875 l 1
+ 274.192382812 291.98046875 l 2
+ 275.364257812 311.219726562 280.877929688 329.46875 289.662109375 343.206054688 c 0
+ 298.3984375 356.860351562 318.622070312 369.03515625 332.622070312 369.065429688 c 0
+ 335.018554688 369.065429688 341.198242188 370.525390625 346.35546875 372.299804688 c 0
+ 379.926757812 383.848632812 414.657226562 378.666992188 431.435546875 359.604492188 c 0
+ 441.180664062 348.538085938 444.211914062 338.297851562 444.05859375 316.993164062 c 0
+ 443.956054688 302.34375 443.149414062 297.077148438 439.314453125 285.930664062 c 0
+ 431.182617188 262.282226562 416.663085938 243.322265625 400.325195312 235.0234375 c 0
+ 388.461914062 228.994140625 365.434570312 222.629882812 352.627929688 221.836914062 c 0
+ 341.775390625 221.163085938 338.12890625 221.731445312 326.37109375 225.920898438 c 0
+EndSplineSet
+Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" period
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.dot tok.ext
+EndChar
+
+StartChar: tok.colon
+Encoding: 406 989597 406
+Width: 700
+VWidth: 1155
+Flags: W
+HStem: 54.0723 147.229<293.515 399.761> 399.198 132.911<366.995 427.008>
+VStem: 280.812 164.158<417.692 516.77> 289.662 154.396<108.066 194.429>
+LayerCount: 2
+Fore
+SplineSet
+326.37109375 58.15625 m 0xd0
+ 300.739257812 67.2890625 289.860351562 75.7763671875 280.344726562 94.06640625 c 2
+ 273.194335938 107.809570312 l 1
+ 274.192382812 124.215820312 l 2
+ 275.364257812 143.455078125 280.877929688 161.704101562 289.662109375 175.44140625 c 0
+ 298.3984375 189.095703125 318.622070312 201.270507812 332.622070312 201.30078125 c 0
+ 335.018554688 201.30078125 341.198242188 202.760742188 346.35546875 204.53515625 c 0
+ 379.926757812 216.083984375 414.657226562 210.90234375 431.435546875 191.83984375 c 0
+ 441.180664062 180.7734375 444.211914062 170.533203125 444.05859375 149.228515625 c 0
+ 443.956054688 134.579101562 443.149414062 129.3125 439.314453125 118.166015625 c 0
+ 431.182617188 94.517578125 416.663085938 75.5576171875 400.325195312 67.2587890625 c 0
+ 388.461914062 61.2294921875 365.434570312 54.865234375 352.627929688 54.072265625 c 0
+ 341.775390625 53.3984375 338.12890625 53.966796875 326.37109375 58.15625 c 0xd0
+343.811523438 399.198242188 m 0
+ 313.801757812 404.427734375 297.09765625 416.483398438 285.4765625 441.293945312 c 0
+ 281.399414062 449.999023438 280.811523438 453.27734375 280.811523438 467.252929688 c 0
+ 280.811523438 482.04296875 281.23828125 484.12109375 286.515625 494.833007812 c 0
+ 290.313476562 502.55078125 296.247070312 510.514648438 304.282226562 518.680664062 c 0
+ 318.439453125 533.069335938 330.249023438 539.41015625 342.970703125 539.451171875 c 0
+ 348.50390625 539.489257812 353.090820312 540.620117188 356.41015625 542.817382812 c 0
+ 359.181640625 544.653320312 363.786132812 546.161132812 366.643554688 546.166992188 c 0
+ 373.848632812 546.166992188 399.828125 537.270507812 407.631835938 532.109375 c 0
+ 420.94140625 523.301757812 437.40234375 499.204101562 443.25 479.96484375 c 0
+ 446.31640625 469.891601562 446.541992188 467.061523438 444.969726562 458.602539062 c 0xe0
+ 442.481445312 445.227539062 434.390625 428.971679688 425.045898438 418.581054688 c 0
+ 407.8125 399.413085938 380.27734375 392.844726562 343.811523438 399.198242188 c 0
+EndSplineSet
+Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" colon
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.colon tok.ext
+EndChar
+
+StartChar: tok.longstart
+Encoding: 407 989591 407
+Width: 0
+Flags: W
+LayerCount: 2
+Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" parenleft
+EndChar
+
+StartChar: tok.longend
+Encoding: 408 989592 408
+Width: 0
+Flags: W
+LayerCount: 2
+Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" parenright
+EndChar
+
+StartChar: tok.ni.br
+Encoding: 409 -1 409
+Width: 700
+Flags: W
+HStem: 32.4355 92.3438<349.062 423.929>
+VStem: 534.34 95.8525<222.587 322.955>
+LayerCount: 2
+Fore
+SplineSet
+558.552734375 48.1689453125 m 0
+ 542.000976562 38.6416015625 513.682617188 31.8818359375 492.633789062 32.435546875 c 0
+ 454.82421875 33.42578125 389.064453125 43.2021484375 361.625 51.9111328125 c 0
+ 359.145507812 52.69921875 348.956054688 54.462890625 338.984375 55.8310546875 c 0
+ 329.009765625 57.2001953125 314.302734375 60.0556640625 306.30078125 62.1796875 c 0
+ 298.295898438 64.3017578125 287.111328125 67.2744140625 281.438476562 68.7900390625 c 0
+ 267.756835938 72.4423828125 246.46875 85.2939453125 239.53515625 94.08984375 c 0
+ 223.453125 114.493164062 231.740234375 139.25390625 256.83984375 145.805664062 c 0
+ 268.920898438 148.959960938 292.125976562 147.46875 309.193359375 142.442382812 c 0
+ 357.528320312 128.208984375 395.173828125 121.518554688 408.619140625 124.779296875 c 0
+ 427.197265625 129.282226562 429.078125 151.0390625 413.184570312 177.672851562 c 0
+ 408.053710938 186.274414062 368.013671875 229.05078125 285.9453125 313.606445312 c 0
+ 279.829101562 319.907226562 246.594726562 352.421875 212.083984375 385.86328125 c 0
+ 141.985351562 453.796875 129.646484375 467.3828125 122.188476562 484.8515625 c 0
+ 111.45703125 509.982421875 113.536132812 526.716796875 129.400390625 542.938476562 c 0
+ 136.859375 550.56640625 139.912109375 552.618164062 147.338867188 555.00390625 c 0
+ 163.287109375 560.125 181.6171875 555.30078125 206.040039062 539.549804688 c 0
+ 221.822265625 529.370117188 273.020507812 478.09375 296.52734375 448.922851562 c 0
+ 305.274414062 438.068359375 320.151367188 420.338867188 329.58984375 409.522460938 c 0
+ 339.02734375 398.708007812 352.115234375 382.390625 358.669921875 373.264648438 c 0
+ 374.258789062 351.560546875 417.624023438 296.870117188 449.560546875 258.640625 c 0
+ 470.706054688 233.33203125 476.458007812 227.208984375 483.807617188 222.1796875 c 0
+ 506.477539062 206.676757812 516.353515625 216.272460938 534.33984375 271.28515625 c 0
+ 547.298828125 310.916992188 556.431640625 328.272460938 573.403320312 345.495117188 c 0
+ 586.379882812 358.665039062 590.66015625 359.95703125 605.64453125 355.206054688 c 0
+ 624.686523438 349.170898438 630.182617188 336.385742188 634.900390625 287.173828125 c 0
+ 638.690429688 247.609375 636.751953125 202.05078125 630.192382812 176.7421875 c 0
+ 624.384765625 154.311523438 610.768554688 115.157226562 604.328125 102.35546875 c 0
+ 592.913085938 79.6640625 573.645507812 56.8583984375 558.552734375 48.1689453125 c 0
+EndSplineSet
+Ligature2: "'liga' ASCII conversion-1" n i v greater
+Ligature2: "'liga' ASCII conversion-1" n i greater v
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.br tok.ext
+Ligature2: "'liga' ASCII conversion-1" Tok.ni greater v
+Ligature2: "'liga' ASCII conversion-1" Tok.ni v greater
+EndChar
+
+StartChar: tok.ni.r
+Encoding: 410 -1 410
+Width: 700
+Flags: W
+HStem: 269.623 97.9688<32.6922 294.646>
+LayerCount: 2
+Fore
+SplineSet
+675.540039062 269.397460938 m 0
+ 670.573242188 250.95703125 655.329101562 226.153320312 640.053710938 211.661132812 c 0
+ 612.618164062 185.625976562 559.206054688 146.0390625 533.645507812 132.794921875 c 0
+ 531.334960938 131.598632812 522.8828125 125.640625 514.864257812 119.556640625 c 0
+ 506.842773438 113.47265625 494.424804688 105.091796875 487.264648438 100.935546875 c 0
+ 480.103515625 96.7763671875 470.092773438 90.96875 465.009765625 88.029296875 c 0
+ 452.752929688 80.9375 428.612304688 74.97265625 417.489257812 76.2890625 c 0
+ 391.690429688 79.3447265625 380.041992188 102.712890625 393.157226562 125.09375 c 0
+ 399.469726562 135.8671875 416.932617188 151.220703125 432.555664062 159.735351562 c 0
+ 476.797851562 183.848632812 508.147460938 205.737304688 515.349609375 217.549804688 c 0
+ 525.302734375 233.87109375 511.248046875 250.584960938 481.176757812 258.1796875 c 0
+ 471.465820312 260.633789062 412.90625 262.568359375 295.084960938 264.328125 c 0
+ 286.3046875 264.458007812 239.813476562 263.94921875 191.763671875 263.193359375 c 0
+ 94.16015625 261.662109375 75.8291015625 262.543945312 58.203125 269.623046875 c 0
+ 32.8447265625 279.8046875 22.4814453125 293.107421875 22.2294921875 315.795898438 c 0
+ 22.109375 326.463867188 22.8173828125 330.073242188 26.3818359375 337.01171875 c 0
+ 34.0380859375 351.91015625 50.41015625 361.459960938 78.8173828125 367.591796875 c 0
+ 97.1748046875 371.553710938 169.635742188 371.499023438 206.884765625 367.493164062 c 0
+ 220.745117188 366.002929688 243.801757812 363.986328125 258.124023438 363.01171875 c 0
+ 272.444335938 362.038085938 293.236328125 359.754882812 304.32421875 357.936523438 c 0
+ 330.694335938 353.612304688 400.030273438 345.604492188 449.645507812 341.154296875 c 0
+ 482.493164062 338.2109375 490.890625 337.948242188 499.643554688 339.588867188 c 0
+ 526.635742188 344.657226562 526.833984375 358.424804688 500.65234375 410.04296875 c 0
+ 481.791992188 447.23046875 475.977539062 465.9609375 475.799804688 490.139648438 c 0
+ 475.663085938 508.627929688 477.776367188 512.568359375 491.731445312 519.8046875 c 0
+ 509.463867188 529.001953125 522.390625 523.84765625 560.524414062 492.385742188 c 0
+ 591.180664062 467.088867188 622.024414062 433.50390625 635.282226562 410.969726562 c 0
+ 647.037109375 391.001953125 665.094726562 353.6875 669.592773438 340.081054688 c 0
+ 677.56640625 315.963867188 680.068359375 286.213867188 675.540039062 269.397460938 c 0
+EndSplineSet
+Ligature2: "'liga' ASCII conversion-1" n i greater
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.r tok.ext
+Ligature2: "'liga' ASCII conversion-1" Tok.ni greater
+EndChar
+
+StartChar: tok.ni.tr
+Encoding: 411 -1 411
+Width: 700
+Flags: W
+HStem: 484.34 100.561<327.046 427.413>
+VStem: 525.222 92.3428<299.062 373.929>
+LayerCount: 2
+Fore
+SplineSet
+601.831054688 508.552734375 m 0
+ 611.358398438 492.000976562 618.118164062 463.682617188 617.564453125 442.633789062 c 0
+ 616.57421875 404.82421875 606.797851562 339.064453125 598.088867188 311.625 c 0
+ 597.30078125 309.145507812 595.538085938 298.956054688 594.169921875 288.984375 c 0
+ 592.799804688 279.009765625 589.9453125 264.302734375 587.821289062 256.30078125 c 0
+ 585.698242188 248.295898438 582.7265625 237.111328125 581.209960938 231.438476562 c 0
+ 577.55859375 217.756835938 564.706054688 196.46875 555.91015625 189.534179688 c 0
+ 535.506835938 173.453125 510.74609375 181.740234375 504.194335938 206.83984375 c 0
+ 501.040039062 218.920898438 502.53125 242.125976562 507.557617188 259.193359375 c 0
+ 521.791015625 307.528320312 528.481445312 345.173828125 525.221679688 358.619140625 c 0
+ 520.71875 377.197265625 498.961914062 379.078125 472.328125 363.184570312 c 0
+ 463.725585938 358.053710938 420.950195312 318.013671875 336.393554688 235.9453125 c 0
+ 330.092773438 229.829101562 297.578125 196.594726562 264.13671875 162.083984375 c 0
+ 196.203125 91.9853515625 182.6171875 79.646484375 165.1484375 72.1884765625 c 0
+ 140.017578125 61.45703125 123.283203125 63.5361328125 107.0625 79.400390625 c 0
+ 99.43359375 86.859375 97.3818359375 89.912109375 94.99609375 97.3388671875 c 0
+ 89.875 113.287109375 94.69921875 131.6171875 110.450195312 156.040039062 c 0
+ 120.629882812 171.822265625 171.90625 223.020507812 201.078125 246.52734375 c 0
+ 211.932617188 255.274414062 229.662109375 270.151367188 240.478515625 279.58984375 c 0
+ 251.29296875 289.02734375 267.609375 302.115234375 276.735351562 308.669921875 c 0
+ 298.439453125 324.258789062 353.129882812 367.624023438 391.359375 399.560546875 c 0
+ 416.66796875 420.706054688 422.791992188 426.458007812 427.8203125 433.807617188 c 0
+ 443.323242188 456.477539062 433.728515625 466.353515625 378.715820312 484.33984375 c 0
+ 339.083984375 497.298828125 321.727539062 506.431640625 304.504882812 523.403320312 c 0
+ 291.334960938 536.379882812 290.04296875 540.66015625 294.793945312 555.64453125 c 0
+ 300.829101562 574.686523438 313.614257812 580.182617188 362.826171875 584.900390625 c 0
+ 402.391601562 588.690429688 447.94921875 586.751953125 473.2578125 580.192382812 c 0
+ 495.689453125 574.384765625 534.842773438 560.768554688 547.64453125 554.328125 c 0
+ 570.336914062 542.913085938 593.142578125 523.645507812 601.831054688 508.552734375 c 0
+EndSplineSet
+Ligature2: "'liga' ASCII conversion-1" asciicircum greater
+Ligature2: "'liga' ASCII conversion-1" n i greater asciicircum
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.tr tok.ext
+Ligature2: "'liga' ASCII conversion-1" Tok.ni asciicircum greater
+Ligature2: "'liga' ASCII conversion-1" Tok.ni greater asciicircum
+EndChar
+
+StartChar: tok.ni.t
+Encoding: 412 -1 412
+Width: 700
+Flags: W
+VStem: 282.408 97.9688<-17.3078 244.646>
+LayerCount: 2
+Fore
+SplineSet
+380.602539062 625.540039062 m 0
+ 399.04296875 620.573242188 423.846679688 605.329101562 438.338867188 590.053710938 c 0
+ 464.374023438 562.618164062 503.9609375 509.206054688 517.205078125 483.645507812 c 0
+ 518.401367188 481.334960938 524.359375 472.8828125 530.443359375 464.864257812 c 0
+ 536.52734375 456.842773438 544.908203125 444.424804688 549.064453125 437.264648438 c 0
+ 553.223632812 430.103515625 559.03125 420.092773438 561.970703125 415.009765625 c 0
+ 569.0625 402.752929688 575.02734375 378.612304688 573.7109375 367.489257812 c 0
+ 570.655273438 341.690429688 547.287109375 330.041992188 524.90625 343.157226562 c 0
+ 514.1328125 349.469726562 498.779296875 366.932617188 490.264648438 382.555664062 c 0
+ 466.151367188 426.797851562 444.262695312 458.147460938 432.450195312 465.349609375 c 0
+ 416.12890625 475.302734375 399.415039062 461.248046875 391.8203125 431.176757812 c 0
+ 389.366210938 421.465820312 387.431640625 362.90625 385.671875 245.084960938 c 0
+ 385.541992188 236.3046875 386.05078125 189.813476562 386.806640625 141.763671875 c 0
+ 388.337890625 44.16015625 387.456054688 25.8291015625 380.376953125 8.203125 c 0
+ 370.1953125 -17.1552734375 356.892578125 -27.5185546875 334.204101562 -27.7705078125 c 0
+ 323.536132812 -27.890625 319.926757812 -27.1826171875 312.98828125 -23.6181640625 c 0
+ 298.08984375 -15.9619140625 288.540039062 0.41015625 282.408203125 28.8173828125 c 0
+ 278.446289062 47.1748046875 278.500976562 119.635742188 282.506835938 156.884765625 c 0
+ 283.997070312 170.745117188 286.013671875 193.801757812 286.98828125 208.124023438 c 0
+ 287.961914062 222.444335938 290.245117188 243.236328125 292.063476562 254.32421875 c 0
+ 296.387695312 280.694335938 304.395507812 350.030273438 308.845703125 399.645507812 c 0
+ 311.7890625 432.493164062 312.051757812 440.890625 310.411132812 449.643554688 c 0
+ 305.342773438 476.635742188 291.575195312 476.833984375 239.95703125 450.65234375 c 0
+ 202.76953125 431.791992188 184.0390625 425.977539062 159.860351562 425.799804688 c 0
+ 141.372070312 425.663085938 137.431640625 427.776367188 130.1953125 441.731445312 c 0
+ 120.998046875 459.463867188 126.15234375 472.390625 157.614257812 510.524414062 c 0
+ 182.911132812 541.180664062 216.49609375 572.024414062 239.030273438 585.282226562 c 0
+ 258.998046875 597.037109375 296.3125 615.094726562 309.918945312 619.592773438 c 0
+ 334.036132812 627.56640625 363.786132812 630.068359375 380.602539062 625.540039062 c 0
+EndSplineSet
+Ligature2: "'liga' ASCII conversion-1" n i asciicircum
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.t tok.ext
+Ligature2: "'liga' ASCII conversion-1" Tok.ni asciicircum
+EndChar
+
+StartChar: tok.ni.tl
+Encoding: 413 -1 413
+Width: 700
+Flags: W
+HStem: 475.222 92.3428<276.071 350.938>
+VStem: 65.0996 100.562<277.046 377.413>
+LayerCount: 2
+Fore
+SplineSet
+141.448242188 551.831054688 m 0
+ 157.999023438 561.358398438 186.317382812 568.118164062 207.366210938 567.564453125 c 0
+ 245.17578125 566.57421875 310.935546875 556.797851562 338.375 548.088867188 c 0
+ 340.854492188 547.30078125 351.043945312 545.537109375 361.016601562 544.169921875 c 0
+ 370.990234375 542.799804688 385.697265625 539.9453125 393.69921875 537.821289062 c 0
+ 401.704101562 535.698242188 412.889648438 532.7265625 418.561523438 531.209960938 c 0
+ 432.243164062 527.55859375 453.53125 514.706054688 460.465820312 505.91015625 c 0
+ 476.547851562 485.506835938 468.260742188 460.74609375 443.161132812 454.194335938 c 0
+ 431.079101562 451.040039062 407.875 452.53125 390.806640625 457.557617188 c 0
+ 342.471679688 471.791015625 304.827148438 478.481445312 291.381835938 475.221679688 c 0
+ 272.802734375 470.717773438 270.921875 448.961914062 286.815429688 422.328125 c 0
+ 291.947265625 413.725585938 331.987304688 370.950195312 414.0546875 286.393554688 c 0
+ 420.171875 280.092773438 453.405273438 247.578125 487.916015625 214.13671875 c 0
+ 558.015625 146.203125 570.353515625 132.6171875 577.811523438 115.1484375 c 0
+ 588.54296875 90.017578125 586.46484375 73.283203125 570.599609375 57.0625 c 0
+ 563.140625 49.43359375 560.087890625 47.3818359375 552.661132812 44.99609375 c 0
+ 536.712890625 39.875 518.383789062 44.69921875 493.9609375 60.4501953125 c 0
+ 478.178710938 70.6298828125 426.979492188 121.90625 403.47265625 151.078125 c 0
+ 394.725585938 161.932617188 379.848632812 179.661132812 370.41015625 190.478515625 c 0
+ 360.97265625 201.29296875 347.884765625 217.609375 341.330078125 226.735351562 c 0
+ 325.7421875 248.439453125 282.375976562 303.129882812 250.439453125 341.359375 c 0
+ 229.293945312 366.66796875 223.541992188 372.791992188 216.192382812 377.8203125 c 0
+ 193.522460938 393.323242188 183.647460938 383.728515625 165.661132812 328.715820312 c 0
+ 152.701171875 289.083984375 143.568359375 271.727539062 126.59765625 254.504882812 c 0
+ 113.62109375 241.334960938 109.33984375 240.04296875 94.35546875 244.793945312 c 0
+ 75.3134765625 250.829101562 69.8173828125 263.614257812 65.099609375 312.826171875 c 0
+ 61.3095703125 352.390625 63.248046875 397.94921875 69.8076171875 423.2578125 c 0
+ 75.615234375 445.689453125 89.2314453125 484.842773438 95.6728515625 497.64453125 c 0
+ 107.087890625 520.336914062 126.354492188 543.142578125 141.448242188 551.831054688 c 0
+EndSplineSet
+Ligature2: "'liga' ASCII conversion-1" n i asciicircum less
+Ligature2: "'liga' ASCII conversion-1" n i less asciicircum
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.tl tok.ext
+Ligature2: "'liga' ASCII conversion-1" Tok.ni less asciicircum
+Ligature2: "'liga' ASCII conversion-1" Tok.ni asciicircum less
+EndChar
+
+StartChar: tok.ni.l
+Encoding: 414 -1 414
+Width: 700
+Flags: W
+HStem: 232.507 104.3<405.354 666.251>
+LayerCount: 2
+Fore
+SplineSet
+24.4599609375 330.602539062 m 0
+ 29.4267578125 349.04296875 44.6708984375 373.846679688 59.9462890625 388.338867188 c 0
+ 87.3818359375 414.374023438 140.793945312 453.9609375 166.354492188 467.205078125 c 0
+ 168.665039062 468.401367188 177.1171875 474.359375 185.135742188 480.443359375 c 0
+ 193.157226562 486.52734375 205.575195312 494.908203125 212.735351562 499.064453125 c 0
+ 219.896484375 503.223632812 229.907226562 509.03125 234.990234375 511.970703125 c 0
+ 247.247070312 519.0625 271.387695312 525.02734375 282.510742188 523.7109375 c 0
+ 308.309570312 520.655273438 319.958007812 497.287109375 306.842773438 474.90625 c 0
+ 300.530273438 464.1328125 283.067382812 448.779296875 267.444335938 440.264648438 c 0
+ 223.202148438 416.151367188 191.852539062 394.262695312 184.650390625 382.450195312 c 0
+ 174.697265625 366.12890625 188.751953125 349.415039062 218.823242188 341.8203125 c 0
+ 228.534179688 339.366210938 287.09375 337.431640625 404.915039062 335.671875 c 0
+ 413.6953125 335.541992188 460.186523438 336.05078125 508.236328125 336.806640625 c 0
+ 605.83984375 338.337890625 624.170898438 337.456054688 641.796875 330.376953125 c 0
+ 667.155273438 320.1953125 677.518554688 306.892578125 677.770507812 284.204101562 c 0
+ 677.890625 273.536132812 677.182617188 269.926757812 673.618164062 262.98828125 c 0
+ 665.961914062 248.08984375 649.58984375 238.540039062 621.182617188 232.408203125 c 0
+ 602.825195312 228.446289062 530.364257812 228.500976562 493.115234375 232.506835938 c 0
+ 479.254882812 233.997070312 456.198242188 236.013671875 441.875976562 236.98828125 c 0
+ 427.555664062 237.961914062 406.763671875 240.245117188 395.67578125 242.063476562 c 0
+ 369.305664062 246.387695312 299.969726562 254.395507812 250.354492188 258.845703125 c 0
+ 217.506835938 261.7890625 209.109375 262.051757812 200.356445312 260.411132812 c 0
+ 173.364257812 255.342773438 173.166015625 241.575195312 199.34765625 189.95703125 c 0
+ 218.208007812 152.76953125 224.022460938 134.0390625 224.200195312 109.860351562 c 0
+ 224.336914062 91.3720703125 222.223632812 87.431640625 208.268554688 80.1953125 c 0
+ 190.536132812 70.998046875 177.609375 76.15234375 139.475585938 107.614257812 c 0
+ 108.819335938 132.911132812 77.9755859375 166.49609375 64.7177734375 189.030273438 c 0
+ 52.962890625 208.998046875 34.9052734375 246.3125 30.4072265625 259.918945312 c 0
+ 22.43359375 284.036132812 19.931640625 313.786132812 24.4599609375 330.602539062 c 0
+EndSplineSet
+Ligature2: "'liga' ASCII conversion-1" n i less
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.l tok.ext
+Ligature2: "'liga' ASCII conversion-1" Tok.ni less
+EndChar
+
+StartChar: tok.ni.bl
+Encoding: 415 -1 415
+Width: 700
+Flags: W
+HStem: 19.8076 95.8535<272.587 372.955>
+VStem: 82.4355 92.3438<226.071 300.938>
+LayerCount: 2
+Fore
+SplineSet
+98.1689453125 91.4482421875 m 0
+ 88.6416015625 107.999023438 81.8818359375 136.317382812 82.435546875 157.366210938 c 0
+ 83.42578125 195.17578125 93.2021484375 260.935546875 101.911132812 288.375 c 0
+ 102.69921875 290.854492188 104.462890625 301.043945312 105.831054688 311.016601562 c 0
+ 107.200195312 320.990234375 110.055664062 335.697265625 112.1796875 343.69921875 c 0
+ 114.301757812 351.704101562 117.274414062 362.888671875 118.790039062 368.561523438 c 0
+ 122.442382812 382.243164062 135.293945312 403.53125 144.090820312 410.465820312 c 0
+ 164.493164062 426.547851562 189.25390625 418.260742188 195.805664062 393.161132812 c 0
+ 198.959960938 381.079101562 197.46875 357.874023438 192.442382812 340.806640625 c 0
+ 178.208984375 292.471679688 171.518554688 254.827148438 174.779296875 241.381835938 c 0
+ 179.282226562 222.802734375 201.0390625 220.921875 227.672851562 236.815429688 c 0
+ 236.274414062 241.947265625 279.05078125 281.987304688 363.607421875 364.0546875 c 0
+ 369.907226562 370.171875 402.421875 403.405273438 435.86328125 437.916015625 c 0
+ 503.796875 508.015625 517.3828125 520.353515625 534.8515625 527.811523438 c 0
+ 559.982421875 538.54296875 576.716796875 536.46484375 592.938476562 520.599609375 c 0
+ 600.56640625 513.140625 602.618164062 510.087890625 605.00390625 502.661132812 c 0
+ 610.125 486.712890625 605.30078125 468.383789062 589.549804688 443.9609375 c 0
+ 579.370117188 428.178710938 528.09375 376.979492188 498.922851562 353.47265625 c 0
+ 488.068359375 344.725585938 470.338867188 329.848632812 459.522460938 320.41015625 c 0
+ 448.708007812 310.97265625 432.390625 297.884765625 423.264648438 291.330078125 c 0
+ 401.560546875 275.741210938 346.870117188 232.375976562 308.640625 200.439453125 c 0
+ 283.33203125 179.293945312 277.208984375 173.541992188 272.1796875 166.192382812 c 0
+ 256.676757812 143.522460938 266.272460938 133.647460938 321.28515625 115.661132812 c 0
+ 360.916992188 102.701171875 378.272460938 93.568359375 395.495117188 76.59765625 c 0
+ 408.665039062 63.62109375 409.95703125 59.33984375 405.206054688 44.35546875 c 0
+ 399.170898438 25.3134765625 386.385742188 19.8173828125 337.173828125 15.099609375 c 0
+ 297.609375 11.3095703125 252.05078125 13.248046875 226.7421875 19.8076171875 c 0
+ 204.311523438 25.615234375 165.157226562 39.2314453125 152.35546875 45.671875 c 0
+ 129.6640625 57.087890625 106.858398438 76.3544921875 98.1689453125 91.4482421875 c 0
+EndSplineSet
+Ligature2: "'liga' ASCII conversion-1" n i v less
+Ligature2: "'liga' ASCII conversion-1" n i less v
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.bl tok.ext
+Ligature2: "'liga' ASCII conversion-1" Tok.ni less v
+Ligature2: "'liga' ASCII conversion-1" Tok.ni v less
+EndChar
+
+StartChar: tok.a.long
+Encoding: 416 -1 416
+Width: 700
+Flags: W
+HStem: -285.044 144.989<534.165 704>
+VStem: 204.32 67.6797<-142.814 -63.3621> 279.396 76.6348<87.807 179.617 524.99 704.535>
+LayerCount: 2
+Fore
+SplineSet
+307.998046875 82.5283203125 m 0
+ 294.45703125 89.5390625 283.884765625 104.98828125 279.396484375 124.340820312 c 0
+ 273.384765625 150.262695312 271.375 245.0703125 275.72265625 297.458007812 c 0
+ 279.63671875 344.62890625 282.53515625 493.001953125 281.27734375 514.938476562 c 0
+ 279.5234375 545.48828125 283.0234375 676.580078125 286.16015625 688.392578125 c 0
+ 293.4453125 715.8046875 317.080078125 724.951171875 332.689453125 706.3984375 c 0
+ 340.5859375 697.016601562 343.5625 681.830078125 349.21484375 622.09765625 c 0
+ 352.14453125 591.14453125 355.197265625 535.391601562 356 527.537109375 c 0
+ 357.958984375 508.399414062 357.978515625 226.989257812 356.03125 177.336914062 c 0
+ 353.53515625 113.844726562 346.78125 92.24609375 326.546875 83.0556640625 c 0
+ 318.21484375 79.271484375 314.5 79.162109375 307.998046875 82.5283203125 c 0
+316.392578125 -143.311523438 m 0
+ 333 -135.435546875 342.783203125 -134 348 -120 c 4
+ 356.5703125 -97 335.211511207 -52.8100156681 331 -49 c 0
+ 322.169921875 -41.01171875 288.787109375 -47.1669921875 279 -63 c 0
+ 274.4921875 -70.29296875 272 -105.43359375 272 -117 c 0
+ 272 -127.602539062 274.134765625 -139.140625 277 -143 c 0
+ 283.63671875 -151.9375 304.000060962 -149.18860511 316.392578125 -143.311523438 c 0
+403.083984375 -185.000976562 m 0
+ 392.928710938 -165.734375 383.582157272 -165.011287695 377 -178 c 0
+ 372.607421875 -186.66796875 355.77734375 -206.366210938 342 -214 c 0
+ 333.483398438 -218.71875 317.052734375 -225.061523438 299.6796875 -225.061523438 c 0
+ 279.75390625 -225.061523438 241.547635911 -218.954414856 226.802734375 -208.8046875 c 0
+ 197 -188.289824947 204.78276226 -97.1361401881 204.3203125 -77.5595703125 c 0
+ 203.763773857 -54 212.382252849 -31.6458385634 220 -22 c 0
+ 238.029760473 0.82986759722 263.182145478 7.95002370817 278 15 c 0
+ 288.512860824 20.0017645575 309.447261442 23.1701613682 321.427734375 23.1025390625 c 0
+ 399 22.6646919518 414.508789062 -15.3896484375 440.18359375 -71.2138671875 c 0
+ 455.65234375 -104.846679688 485.723632812 -113.356445312 509 -121 c 0
+ 526 -126.583007812 581.996484375 -140.0546875 704.646484375 -140.0546875 c 1
+ 704.646484375 -140.0546875 749.31640625 -148 749.31640625 -214 c 0
+ 749.31640625 -276 704 -285.043945312 704 -285.043945312 c 1
+ 588 -285.043945312 438.990234375 -253.120117188 403.083984375 -185.000976562 c 0
+EndSplineSet
+Ligature2: "'liga' ASCII conversion-1" a parenleft
+LCarets2: 1 0
+Ligature2: "'liga' ASCII conversion-1" Tok.a tok.longstart
 EndChar
 EndChars
 EndSplineFont

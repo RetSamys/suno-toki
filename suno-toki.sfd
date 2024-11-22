@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1723117504
-ModificationTime: 1732282771
+ModificationTime: 1732283691
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -61,19 +61,19 @@ Lookup: 2 0 0 "'ccmp' mid name assignment" { "'ccmp' mid name assignment-1"  } [
 Lookup: 6 0 0 "'calt' name cleanup" { "'calt' name cleanup-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' Zugriff auf alle Alternativen in Lateinisch Nachschlagetabelle 9" { "'aalt' Zugriff auf alle Alternativen in Lateinisch Nachschlagetabelle 9-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 3 0 0 "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6" { "'rand' Zuf+AOQA-llig in Lateinisch Nachschlagetabelle 6-1"  } ['rand' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 0 1 "'liga' ASCII conversion" { "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle"  "'liga' ASCII conversion-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' ASCII conversion" { "'liga' ASCII conversion-1"  "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' Kontextuelle Alternativen in Lateinisch Nachschlagetabelle 1" { "'calt' Kontextuelle Alternativen in Lateinisch Nachschlagetabelle 1-1"  "'calt' Kontextuelle Alternativen in Lateinisch Nachschlagetabelle 1 Subtabelle"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2" { "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle"  } ['cc01' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9" { "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1"  } ['cc02' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: class "'calt' Kontextuelle Alternativen in Lateinisch Nachschlagetabelle 1-1" 3 3 3 1
-  Class: 1220 ideographicspace Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu tok.dot tok.colon tok.ni.br tok.ni.r tok.ni.tr tok.ni.t tok.ni.tl tok.ni.l tok.ni.bl
-  Class: 53 tok.piext tok.ext tok.longpi tok.longstart tok.a.long
-  BClass: 1220 ideographicspace Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu tok.dot tok.colon tok.ni.br tok.ni.r tok.ni.tr tok.ni.t tok.ni.tl tok.ni.l tok.ni.bl
-  BClass: 53 tok.piext tok.ext tok.longpi tok.longstart tok.a.long
-  FClass: 1220 ideographicspace Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu tok.dot tok.colon tok.ni.br tok.ni.r tok.ni.tr tok.ni.t tok.ni.tl tok.ni.l tok.ni.bl
-  FClass: 53 tok.piext tok.ext tok.longpi tok.longstart tok.a.long
+  Class: 1226 space ideographicspace Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu tok.dot tok.colon tok.ni.br tok.ni.r tok.ni.tr tok.ni.t tok.ni.tl tok.ni.l tok.ni.bl
+  Class: 67 tok.piext tok.ext tok.longpi tok.longstart tok.a.long tok.ext.empty
+  BClass: 1226 space ideographicspace Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu tok.dot tok.colon tok.ni.br tok.ni.r tok.ni.tr tok.ni.t tok.ni.tl tok.ni.l tok.ni.bl
+  BClass: 67 tok.piext tok.ext tok.longpi tok.longstart tok.a.long tok.ext.empty
+  FClass: 1226 space ideographicspace Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu tok.dot tok.colon tok.ni.br tok.ni.r tok.ni.tr tok.ni.t tok.ni.tl tok.ni.l tok.ni.bl
+  FClass: 67 tok.piext tok.ext tok.longpi tok.longstart tok.a.long tok.ext.empty
  1 1 0
   ClsList: 1
   BClsList: 2
@@ -128,11 +128,11 @@ ChainSub2: class "'calt' mid name-1" 4 4 4 1
   FClassNames: "Alle _Andere" "alph" "carted" "cartend"
 EndFPST
 ChainSub2: class "'calt' Kontextuelle Alternativen in Lateinisch Nachschlagetabelle 1 Subtabelle" 3 3 3 1
-  Class: 1223 space Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu a.cart e.cart i.cart j.cart k.cart l.cart m.cart n.cart o.cart p.cart s.cart t.cart u.cart w.cart 
+  Class: 1324 space ideographicspace Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu a.cart e.cart i.cart j.cart k.cart l.cart m.cart n.cart o.cart p.cart s.cart t.cart u.cart w.cart tok.dot tok.colon tok.ni.br tok.ni.r tok.ni.tr tok.ni.t tok.ni.tl tok.ni.l tok.ni.bl
   Class: 43 Tok.cartopen Tok.cartext cart.empty no.cart
-  BClass: 1223 space Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu a.cart e.cart i.cart j.cart k.cart l.cart m.cart n.cart o.cart p.cart s.cart t.cart u.cart w.cart 
+  BClass: 1324 space ideographicspace Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu a.cart e.cart i.cart j.cart k.cart l.cart m.cart n.cart o.cart p.cart s.cart t.cart u.cart w.cart tok.dot tok.colon tok.ni.br tok.ni.r tok.ni.tr tok.ni.t tok.ni.tl tok.ni.l tok.ni.bl
   BClass: 43 Tok.cartopen Tok.cartext cart.empty no.cart
-  FClass: 1223 space Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu a.cart e.cart i.cart j.cart k.cart l.cart m.cart n.cart o.cart p.cart s.cart t.cart u.cart w.cart 
+  FClass: 1324 space ideographicspace Tok.a Tok.akesi Tok.ala Tok.alasa Tok.ale Tok.anpa Tok.ante Tok.anu Tok.awen Tok.e Tok.en Tok.esun Tok.ijo Tok.ike Tok.ilo Tok.insa Tok.jaki Tok.jan Tok.jelo Tok.jo Tok.kala Tok.kalama Tok.kama Tok.kasi Tok.ken Tok.kepeken Tok.kili tok.kiwen Tok.ko Tok.kon Tok.kule Tok.kulupu Tok.kute Tok.la Tok.lape Tok.laso Tok.lawa Tok.len Tok.lete Tok.li Tok.lili Tok.linja Tok.lipu Tok.loje Tok.lon Tok.luka Tok.lukin Tok.lupa Tok.ma Tok.mama Tok.mani Tok.meli Tok.mi Tok.mije Tok.moku Tok.moli Tok.monsi Tok.mu Tok.mun Tok.musi Tok.mute Tok.nanpa Tok.nasa Tok.nasin Tok.nena Tok.ni Tok.nimi Tok.noka Tok.o Tok.olin Tok.ona Tok.open Tok.pakala Tok.pali Tok.palisa Tok.pan Tok.pana Tok.pi Tok.pilin Tok.pimeja Tok.pini Tok.pipi Tok.poka Tok.poki Tok.pona Tok.pu Tok.sama Tok.seli Tok.selo Tok.seme Tok.sewi Tok.sijelo Tok.sike Tok.sin Tok.sina Tok.sinpin Tok.sitelen Tok.sona Tok.soweli Tok.suli Tok.suno Tok.supa Tok.suwi Tok.tan Tok.taso Tok.tawa Tok.telo Tok.tenpo Tok.toki Tok.tomo Tok.tu Tok.unpa Tok.uta Tok.utala Tok.walo Tok.wan Tok.waso Tok.wawa Tok.weka Tok.wile Tok.namako Tok.kin Tok.oko Tok.tonsi Tok.kijetesantakalu a.cart e.cart i.cart j.cart k.cart l.cart m.cart n.cart o.cart p.cart s.cart t.cart u.cart w.cart tok.dot tok.colon tok.ni.br tok.ni.r tok.ni.tr tok.ni.t tok.ni.tl tok.ni.l tok.ni.bl
   FClass: 43 Tok.cartopen Tok.cartext cart.empty no.cart
  1 1 0
   ClsList: 1
@@ -159,7 +159,7 @@ StdVW 4 [91]
 StemSnapH 34 [58 70 75 80 87 92 99 110 117 123]
 StemSnapV 33 [61 68 71 75 80 84 91 96 105 110]
 EndPrivate
-BeginChars: 417 417
+BeginChars: 418 418
 
 StartChar: .notdef
 Encoding: 385 -1 0
@@ -513,6 +513,7 @@ Flags: W
 LayerCount: 2
 Fore
 Validated: 1
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ext.empty
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" cart.empty
 EndChar
 
@@ -2806,6 +2807,7 @@ Flags: W
 LayerCount: 2
 Fore
 Validated: 1
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" ideographicspace Tok.cartext
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" ideographicspace tok.ext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" space space
 EndChar
@@ -11491,6 +11493,7 @@ SplineSet
  163.619140625 -233.734375 139.68359375 -260.75390625 129.576171875 -266.998046875 c 0
  122.662109375 -271.274414062 109.11328125 -276.114257812 89.15234375 -281.446289062 c 0xe0
 EndSplineSet
+Validated: 524321
 Substitution2: "'aalt' Zugriff auf alle Alternativen in Lateinisch Nachschlagetabelle 9-1" cart.empty
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" bracketright
 EndChar
@@ -11520,6 +11523,7 @@ SplineSet
  -709 772.963867188 l 1
 -709 772.963867188 m 1024
 EndSplineSet
+Validated: 524289
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" underscore
 EndChar
 
@@ -12399,6 +12403,7 @@ SplineSet
  -749 -212 l 1
  -708.353515625 -140.0546875 l 1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: tok.ext
@@ -12417,6 +12422,7 @@ SplineSet
  -749 -212 l 1
  -708.353515625 -140.0546875 l 1
 EndSplineSet
+Validated: 524289
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" tok.piext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" underscore underscore
 EndChar
@@ -12464,9 +12470,10 @@ SplineSet
  403.35546875 -288.123046875 384.2734375 -286.18359375 371.87109375 -284.927734375 c 0
  347.012955963 -282.410603257 318.256325453 -279 305 -279 c 3xc0
 EndSplineSet
+Validated: 524321
 LCarets2: 2 0 0
-Ligature2: "'liga' ASCII conversion-1" Tok.pi tok.longstart
 Ligature2: "'liga' ASCII conversion-1" p i parenleft
+Ligature2: "'liga' ASCII conversion-1" Tok.pi tok.longstart
 EndChar
 
 StartChar: tok.dot
@@ -12493,6 +12500,8 @@ SplineSet
  388.461914062 228.994140625 365.434570312 222.629882812 352.627929688 221.836914062 c 0
  341.775390625 221.163085938 338.12890625 221.731445312 326.37109375 225.920898438 c 0
 EndSplineSet
+Validated: 524321
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" tok.dot Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" period
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.dot tok.ext
 EndChar
@@ -12534,6 +12543,8 @@ SplineSet
  442.481445312 445.227539062 434.390625 428.971679688 425.045898438 418.581054688 c 0
  407.8125 399.413085938 380.27734375 392.844726562 343.811523438 399.198242188 c 0
 EndSplineSet
+Validated: 524321
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" tok.colon Tok.cartext
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" colon
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.colon tok.ext
 EndChar
@@ -12543,6 +12554,8 @@ Encoding: 407 989591 407
 Width: 0
 Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" parenleft
 EndChar
 
@@ -12551,6 +12564,8 @@ Encoding: 408 989592 408
 Width: 0
 Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 Ligature2: "'liga' Standard-Ligaturen in Lateinisch Nachschlagetabelle 0 Subtabelle" parenright
 EndChar
 
@@ -12593,11 +12608,13 @@ SplineSet
  624.384765625 154.311523438 610.768554688 115.157226562 604.328125 102.35546875 c 0
  592.913085938 79.6640625 573.645507812 56.8583984375 558.552734375 48.1689453125 c 0
 EndSplineSet
+Validated: 524321
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" tok.ni.br Tok.cartext
 Ligature2: "'liga' ASCII conversion-1" n i v greater
 Ligature2: "'liga' ASCII conversion-1" n i greater v
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.br tok.ext
-Ligature2: "'liga' ASCII conversion-1" Tok.ni greater v
 Ligature2: "'liga' ASCII conversion-1" Tok.ni v greater
+Ligature2: "'liga' ASCII conversion-1" Tok.ni greater v
 EndChar
 
 StartChar: tok.ni.r
@@ -12638,6 +12655,8 @@ SplineSet
  647.037109375 391.001953125 665.094726562 353.6875 669.592773438 340.081054688 c 0
  677.56640625 315.963867188 680.068359375 286.213867188 675.540039062 269.397460938 c 0
 EndSplineSet
+Validated: 524321
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" tok.ni.r Tok.cartext
 Ligature2: "'liga' ASCII conversion-1" n i greater
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.r tok.ext
 Ligature2: "'liga' ASCII conversion-1" Tok.ni greater
@@ -12682,8 +12701,10 @@ SplineSet
  495.689453125 574.384765625 534.842773438 560.768554688 547.64453125 554.328125 c 0
  570.336914062 542.913085938 593.142578125 523.645507812 601.831054688 508.552734375 c 0
 EndSplineSet
-Ligature2: "'liga' ASCII conversion-1" asciicircum greater
+Validated: 524321
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" tok.ni.tr Tok.cartext
 Ligature2: "'liga' ASCII conversion-1" n i greater asciicircum
+Ligature2: "'liga' ASCII conversion-1" asciicircum greater
 MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.tr tok.ext
 Ligature2: "'liga' ASCII conversion-1" Tok.ni asciicircum greater
 Ligature2: "'liga' ASCII conversion-1" Tok.ni greater asciicircum
@@ -12727,9 +12748,11 @@ SplineSet
  258.998046875 597.037109375 296.3125 615.094726562 309.918945312 619.592773438 c 0
  334.036132812 627.56640625 363.786132812 630.068359375 380.602539062 625.540039062 c 0
 EndSplineSet
-Ligature2: "'liga' ASCII conversion-1" n i asciicircum
-MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.t tok.ext
+Validated: 524321
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" tok.ni.t Tok.cartext
 Ligature2: "'liga' ASCII conversion-1" Tok.ni asciicircum
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.t tok.ext
+Ligature2: "'liga' ASCII conversion-1" n i asciicircum
 EndChar
 
 StartChar: tok.ni.tl
@@ -12771,10 +12794,12 @@ SplineSet
  75.615234375 445.689453125 89.2314453125 484.842773438 95.6728515625 497.64453125 c 0
  107.087890625 520.336914062 126.354492188 543.142578125 141.448242188 551.831054688 c 0
 EndSplineSet
-Ligature2: "'liga' ASCII conversion-1" n i asciicircum less
-Ligature2: "'liga' ASCII conversion-1" n i less asciicircum
-MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.tl tok.ext
+Validated: 524321
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" tok.ni.tl Tok.cartext
 Ligature2: "'liga' ASCII conversion-1" Tok.ni less asciicircum
+Ligature2: "'liga' ASCII conversion-1" n i asciicircum less
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.tl tok.ext
+Ligature2: "'liga' ASCII conversion-1" n i less asciicircum
 Ligature2: "'liga' ASCII conversion-1" Tok.ni asciicircum less
 EndChar
 
@@ -12816,9 +12841,11 @@ SplineSet
  52.962890625 208.998046875 34.9052734375 246.3125 30.4072265625 259.918945312 c 0
  22.43359375 284.036132812 19.931640625 313.786132812 24.4599609375 330.602539062 c 0
 EndSplineSet
-Ligature2: "'liga' ASCII conversion-1" n i less
-MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.l tok.ext
+Validated: 524321
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" tok.ni.l Tok.cartext
 Ligature2: "'liga' ASCII conversion-1" Tok.ni less
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.l tok.ext
+Ligature2: "'liga' ASCII conversion-1" n i less
 EndChar
 
 StartChar: tok.ni.bl
@@ -12860,11 +12887,13 @@ SplineSet
  204.311523438 25.615234375 165.157226562 39.2314453125 152.35546875 45.671875 c 0
  129.6640625 57.087890625 106.858398438 76.3544921875 98.1689453125 91.4482421875 c 0
 EndSplineSet
-Ligature2: "'liga' ASCII conversion-1" n i v less
-Ligature2: "'liga' ASCII conversion-1" n i less v
-MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.bl tok.ext
+Validated: 524321
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 2 Subtabelle" tok.ni.bl Tok.cartext
 Ligature2: "'liga' ASCII conversion-1" Tok.ni less v
+Ligature2: "'liga' ASCII conversion-1" n i v less
+MultipleSubs2: "Mehrfache Substitution in Lateinisch Nachschlagetabelle 9-1" tok.ni.bl tok.ext
 Ligature2: "'liga' ASCII conversion-1" Tok.ni v less
+Ligature2: "'liga' ASCII conversion-1" n i less v
 EndChar
 
 StartChar: tok.a.long
@@ -12910,9 +12939,19 @@ SplineSet
  749.31640625 -276 704 -285.043945312 704 -285.043945312 c 1
  588 -285.043945312 438.990234375 -253.120117188 403.083984375 -185.000976562 c 0
 EndSplineSet
+Validated: 524321
 Ligature2: "'liga' ASCII conversion-1" a parenleft
 LCarets2: 1 0
 Ligature2: "'liga' ASCII conversion-1" Tok.a tok.longstart
+EndChar
+
+StartChar: tok.ext.empty
+Encoding: 417 -1 417
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
